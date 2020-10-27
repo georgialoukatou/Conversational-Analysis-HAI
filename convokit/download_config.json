@@ -1,10 +1,10 @@
 {
   "cur_version": {
     "chromium-corpus": 0, 
-    "conversations-gone-awry-cmv-corpus": 2,
+    "conversations-gone-awry-cmv-corpus": 1,
     "conversations-gone-awry-corpus": 4,
     "diplomacy-corpus": 2,
-    "friends-corpus": 3,
+    "friends-corpus": 2,
     "gap-corpus": 1,
     "iq2-corpus": 1,
     "movie-corpus": 2,
@@ -23,7 +23,8 @@
     "wikiconv": 0,
     "wikiconv-corpus": 1,
     "wikipedia-politeness-corpus": 1,
-    "winning-args-corpus": 1
+    "winning-args-corpus": 1,
+    "oyez": 1
   },
     "DatasetURLs": {
     "chromium-corpus": "http://zissou.infosci.cornell.edu/convokit/datasets/chromium-corpus/chromium-corpus.zip",
