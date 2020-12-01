@@ -28,7 +28,7 @@ class Utterance(CorpusComponent):
     def __init__(self, owner=None, id: Optional[str] = None, speaker: Optional[Speaker] = None,
                  user: Optional[Speaker] = None, conversation_id: Optional[str] = None,
                  root: Optional[str] = None, reply_to: Optional[str] = None,
-                 timestamp: Optional[int] = None, text: Optional[str] = None,
+                 timestamp: Optional[int] = None, text: str = '',
                  meta: Optional[Dict] = None):
         super().__init__(obj_type="utterance", owner=owner, id=id, meta=meta)
         speaker_ = speaker if speaker is not None else user
@@ -38,11 +38,14 @@ class Utterance(CorpusComponent):
         self.user = speaker # for backwards compatbility
         self.conversation_id = conversation_id if conversation_id is not None else root
         if self.conversation_id is not None and not isinstance(self.conversation_id, str):
-            warn("conversation_id must be a string. conversation_id has been casted to a string.".format(self.obj_type))
+            warn("Utterance conversation_id must be a string: conversation_id has been casted to a string.")
             self.conversation_id = str(self.conversation_id)
         self._root = self.conversation_id
         self.reply_to = reply_to
         self.timestamp = timestamp # int(timestamp) if timestamp is not None else timestamp
+        if not isinstance(text, str):
+            warn("Utterance text must be a string: text has been casted to a string.".format(self.obj_type))
+            text = '' if text is None else str(text)
         self.text = text
 
     def _get_root(self):
