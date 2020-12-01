@@ -38,13 +38,15 @@ class Utterance(CorpusComponent):
         self.user = speaker # for backwards compatbility
         self.conversation_id = conversation_id if conversation_id is not None else root
         if self.conversation_id is not None and not isinstance(self.conversation_id, str):
-            warn("Utterance conversation_id must be a string: conversation_id has been casted to a string.")
+            warn("Utterance conversation_id must be a string: conversation_id of utterance with ID: {} "
+                 "has been casted to a string.".format(self.id))
             self.conversation_id = str(self.conversation_id)
         self._root = self.conversation_id
         self.reply_to = reply_to
         self.timestamp = timestamp # int(timestamp) if timestamp is not None else timestamp
         if not isinstance(text, str):
-            warn("Utterance text must be a string: text has been casted to a string.".format(self.obj_type))
+            warn("Utterance text must be a string: text of utterance with ID: {} "
+                 "has been casted to a string.".format(self.id))
             text = '' if text is None else str(text)
         self.text = text
 
