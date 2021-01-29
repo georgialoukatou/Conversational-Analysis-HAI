@@ -2,11 +2,8 @@ from convokit.model import Corpus
 from .textProcessor import TextProcessor
 from typing import Callable, Optional 
 
-
-# TODO this is temporary (to be replaced with simply joining tokens) 
-import jieba
-jieba_tokenizer = lambda text: " ".join(jieba.cut(text))
-
+# join tokens from existing parses
+join_tokens = lambda p: " ".join([" ".join([tok['tok'] for tok in sent['toks']]) for sent in p])
 
 class TextToTokenized(TextProcessor):
     """
@@ -23,7 +20,7 @@ class TextToTokenized(TextProcessor):
         under the 'original' attribute.
     """
     def __init__(self, tokenizer: Optional[Callable[[str], str]]=None, 
-                 input_field=None, input_filter=lambda utt, aux: True,
+                 input_field="parsed", input_filter=lambda utt, aux: True,
                  verbosity: int = 100, replace_text: bool = True, save_original: bool = True):
 
         if replace_text:
@@ -37,12 +34,7 @@ class TextToTokenized(TextProcessor):
         self.replace_text = replace_text
         self.save_original = save_original
         
-        # TODO:
-        # If a tokenizer is specified, use it to tokenize text. 
-        # Otherwise tokens will be retrtieved from parsed
-        proc_fn = tokenizer if tokenizer is not None else jieba_tokenizer
-        
-        super().__init__(proc_fn=proc_fn, input_field=input_field, input_filter=input_filter,
+        super().__init__(proc_fn=join_tokens, input_field=input_field, input_filter=input_filter,
                          verbosity=verbosity, output_field=output_field)
 
     def transform(self, corpus: Corpus) -> Corpus:
@@ -64,4 +56,4 @@ class TextToTokenized(TextProcessor):
             if not self.save_original:
                 corpus.delete_metadata('utterance', self.output_field)
         
-        return corpus
+        return corpus  
