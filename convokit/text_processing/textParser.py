@@ -144,7 +144,7 @@ def process_text(text, mode='parse', sent_tokenizer=None, spacy_nlp=None):
 	if mode == 'parse' or sent_tokenizer is None:
 		sents = spacy_nlp(text).sents
 	else:
-		sents = list(spacy_nlp.pipe(sent_tokenizer.tokenize(text))) 
+		sents = [spacy_nlp(x) for x in (sent_tokenizer.tokenize(text))]
 	
 	sentences = []
 	offset = 0
