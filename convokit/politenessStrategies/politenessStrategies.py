@@ -2,6 +2,7 @@ from typing import Callable, Optional
 from convokit.model import Utterance
 from convokit.politeness_api.features.politeness_strategies import get_politeness_strategy_features
 from convokit.politeness_local.marker_extractor import get_local_politeness_strategy_features
+from convokit.politeness_collections.chinese_strategies.strategy_extractor import get_chinese_politeness_strategy_features
 from convokit.text_processing.textParser import process_text
 from convokit.transformer import Transformer
 from convokit.model import Corpus
@@ -29,7 +30,8 @@ class PolitenessStrategies(Transformer):
         self.verbose = verbose
         
         self.__extractor_lookup = {"politeness_api": get_politeness_strategy_features, \
-                                   "politeness_local": get_local_politeness_strategy_features}
+                                   "politeness_local": get_local_politeness_strategy_features, \
+                                   "politeness_chinese": get_chinese_politeness_strategy_features}
 
     def transform(self, corpus: Corpus, selector: Optional[Callable[[Utterance], bool]] = lambda utt: True,
                   markers: bool = False):

@@ -1,14 +1,16 @@
 from convokit.model import Corpus
 from .textProcessor import TextProcessor
-from typing import Callable, Optional
-import jieba 
+from typing import Callable, Optional 
 
-# there are different options for cutting, using the basic version for now
+
+# TODO this is temporary (to be replaced with simply joining tokens) 
+import jieba
 jieba_tokenizer = lambda text: " ".join(jieba.cut(text))
 
-class ChineseTokenizer(TextProcessor):
+
+class TextToTokenized(TextProcessor):
     """
-    Transformer that segments Chinese text. 
+    Transformer that formats utterance texts as space-separated (tokenized) text. Intended especially for languages which do not include spaces between words.
 
     :param input_field: name of attribute to use as input. This attribute must point to a string, and defaults to utterance.text.
     :param input_filter: a boolean function of signature `input_filter(utterance, aux_input)`.
@@ -20,7 +22,7 @@ class ChineseTokenizer(TextProcessor):
     :param save_original: if replacing text, whether to save the original version of the text. If True, saves it
         under the 'original' attribute.
     """
-    def __init__(self, chinese_tokenizer: Optional[Callable[[str], str]]=None, 
+    def __init__(self, tokenizer: Optional[Callable[[str], str]]=None, 
                  input_field=None, input_filter=lambda utt, aux: True,
                  verbosity: int = 100, replace_text: bool = True, save_original: bool = True):
 
@@ -35,7 +37,10 @@ class ChineseTokenizer(TextProcessor):
         self.replace_text = replace_text
         self.save_original = save_original
         
-        proc_fn = chinese_tokenizer if chinese_tokenizer is not None else jieba_tokenizer
+        # TODO:
+        # If a tokenizer is specified, use it to tokenize text. 
+        # Otherwise tokens will be retrtieved from parsed
+        proc_fn = tokenizer if tokenizer is not None else jieba_tokenizer
         
         super().__init__(proc_fn=proc_fn, input_field=input_field, input_filter=input_filter,
                          verbosity=verbosity, output_field=output_field)
