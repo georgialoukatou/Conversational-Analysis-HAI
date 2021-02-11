@@ -1,5 +1,5 @@
 from sklearn.pipeline import Pipeline
-from convokit.model import Utterance
+from convokit.model import Utterance, Speaker
 
 class ConvokitPipeline(Pipeline):
 	"""
@@ -42,7 +42,7 @@ class ConvokitPipeline(Pipeline):
 		params_steps = self._parse_param_steps(params)
 
 		if isinstance(utt, str):
-			utt = Utterance(text=utt)
+			utt = Utterance(text=utt, speaker=Speaker(id="speaker"))
 		for name, transform in self.steps:
 			if name in params_steps:
 				utt = transform.transform_utterance(utt, **params_steps[name])

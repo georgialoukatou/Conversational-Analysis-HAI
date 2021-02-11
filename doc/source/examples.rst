@@ -25,11 +25,11 @@ Classifier
 
 Coordination
 ------------
-- `Exploring the balance of power in the US Supreme Court <https://github.com/CornellNLP/Cornell-Conversational-Analysis-Toolkit/blob/master/examples/coordination/examples.ipynb>`_
+- `Exploring the balance of power in Wikipedia and the US Supreme Court <https://github.com/CornellNLP/Cornell-Conversational-Analysis-Toolkit/blob/master/examples/coordination/examples.ipynb>`_
 
 Fighting Words
 --------------
-- `Examining the Fighting Words of mixed-gender vs. single-gender conversations in movies <https://github.com/CornellNLP/Cornell-Conversational-Analysis-Toolkit/blob/master/examples/movie-corpus-gender-fighting-words.ipynb>`_
+- `Examining the Fighting Words of mixed-gender vs. single-gender conversations in movies <https://github.com/CornellNLP/Cornell-Conversational-Analysis-Toolkit/blob/master/examples/sigdial-demo.ipynb>`_
 - `Examining the Fighting Words of r/atheism vs r/Christianity <https://github.com/CornellNLP/Cornell-Conversational-Analysis-Toolkit/blob/master/convokit/fighting_words/demos/fightingwords_demo.ipynb>`_
 
 Forecaster

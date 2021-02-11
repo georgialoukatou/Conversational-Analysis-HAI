@@ -1,10 +1,10 @@
 {
   "cur_version": {
     "chromium-corpus": 0, 
-    "conversations-gone-awry-cmv-corpus": 2,
+    "conversations-gone-awry-cmv-corpus": 1,
     "conversations-gone-awry-corpus": 4,
     "diplomacy-corpus": 2,
-    "friends-corpus": 3,
+    "friends-corpus": 2,
     "gap-corpus": 1,
     "iq2-corpus": 1,
     "movie-corpus": 2,
@@ -15,7 +15,6 @@
     "reddit-corpus-small": 2,
     "stack-exchange-politeness-corpus": 1,
     "subreddit": 0,
-    "supreme-corpus": 3,
     "switchboard-corpus": 1,
     "tennis-corpus": 3,
     "wiki-corpus": 3,
@@ -23,7 +22,9 @@
     "wikiconv": 0,
     "wikiconv-corpus": 1,
     "wikipedia-politeness-corpus": 1,
-    "winning-args-corpus": 1
+    "winning-args-corpus": 1,
+    "supreme-corpus": 1,
+    "supreme": 1
   },
     "DatasetURLs": {
     "chromium-corpus": "http://zissou.infosci.cornell.edu/convokit/datasets/chromium-corpus/chromium-corpus.zip",
@@ -52,19 +53,6 @@
     "reddit-corpus": "http://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/reddit-corpus.corpus.zip",
     "reddit-corpus-small": "http://zissou.infosci.cornell.edu/convokit/datasets/subreddit-corpus/reddit-corpus-small.corpus.zip",
     "stack-exchange-politeness-corpus": "http://zissou.infosci.cornell.edu/convokit/datasets/stack-exchange-politeness-corpus/stack-exchange-politeness-corpus.zip",
-    "supreme-corpus": "http://zissou.infosci.cornell.edu/convokit/datasets/supreme-corpus/supreme-corpus.zip",
-    "supreme-motifs": [
-      "http://zissou.infosci.cornell.edu/socialkit/datasets/supreme-corpus/supreme-motifs/answer_arcs.json",
-      "http://zissou.infosci.cornell.edu/socialkit/datasets/supreme-corpus/supreme-motifs/question_arcs.json",
-      "http://zissou.infosci.cornell.edu/socialkit/datasets/supreme-corpus/supreme-motifs/question_fits.json",
-      "http://zissou.infosci.cornell.edu/socialkit/datasets/supreme-corpus/supreme-motifs/question_fits.json.super",
-      "http://zissou.infosci.cornell.edu/socialkit/datasets/supreme-corpus/supreme-motifs/question_supersets_arcset_to_super.json",
-      "http://zissou.infosci.cornell.edu/socialkit/datasets/supreme-corpus/supreme-motifs/question_supersets_sets.json",
-      "http://zissou.infosci.cornell.edu/socialkit/datasets/supreme-corpus/supreme-motifs/question_tree_arc_set_counts.tsv",
-      "http://zissou.infosci.cornell.edu/socialkit/datasets/supreme-corpus/supreme-motifs/question_tree_downlinks.json",
-      "http://zissou.infosci.cornell.edu/socialkit/datasets/supreme-corpus/supreme-motifs/question_tree_edges.json",
-      "http://zissou.infosci.cornell.edu/socialkit/datasets/supreme-corpus/supreme-motifs/question_tree_uplinks.json"
-    ],
     "switchboard-corpus": "http://zissou.infosci.cornell.edu/convokit/datasets/switchboard-corpus/switchboard-corpus.zip",
     "tennis-corpus": "http://zissou.infosci.cornell.edu/convokit/datasets/tennis-corpus/tennis-corpus.zip",
     "tennis-motifs": [
@@ -94,6 +82,7 @@
     ],
     "wiki-politeness-annotated": "https://zissou.infosci.cornell.edu/convokit/datasets/wiki-politeness-annotated-corpus/wiki-politeness-annotated-corpus.zip",
     "wikipedia-politeness-corpus": "http://zissou.infosci.cornell.edu/convokit/datasets/wikipedia-politeness-corpus/wikipedia-politeness-corpus.zip",
-    "winning-args-corpus": "http://zissou.infosci.cornell.edu/convokit/datasets/winning-args-corpus/winning-args-corpus.zip"
+    "winning-args-corpus": "http://zissou.infosci.cornell.edu/convokit/datasets/winning-args-corpus/winning-args-corpus.zip",
+    "supreme-corpus": "https://zissou.infosci.cornell.edu/convokit/datasets/supreme-corpus/supreme-corpus.zip"
   }
 }

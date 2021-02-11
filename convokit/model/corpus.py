@@ -151,7 +151,7 @@ class Corpus:
     def dump(self, name: str, base_path: Optional[str] = None,
              exclude_vectors: List[str] = None,
              force_version: int = None,
-             save_to_existing_path: bool = False,
+             overwrite_existing_corpus: bool = False,
              fields_to_skip=None) -> None:
         """
         Dumps the corpus and its metadata to disk. Optionally, set `force_version` to a desired integer version number,
@@ -162,17 +162,17 @@ class Corpus:
         :param exclude_vectors: list of names of vector matrices to exclude from the dumping step. By default; all
             vector matrices that belong to the Corpus (whether loaded or not) are dumped.
         :param force_version: version number to set for the dumped corpus
-        :param save_to_existing_path: if True, save to the path you loaded the corpus from (supersedes base_path)
+        :param overwrite_existing_corpus: if True, save to the path you loaded the corpus from, overriding the original corpus. 
         :param fields_to_skip: a dictionary of {object type: list of metadata attributes to omit when writing to disk}. object types can be one of "speaker", "utterance", "conversation", "corpus".
         """
         if fields_to_skip is None:
             fields_to_skip = dict()
         dir_name = name
-        if base_path is not None and save_to_existing_path:
-            raise ValueError("Not allowed to specify both base_path and save_to_existing_path!")
-        if save_to_existing_path and self.corpus_dirpath is None:
+        if base_path is not None and overwrite_existing_corpus:
+            raise ValueError("Not allowed to specify both base_path and overwrite_existing_corpus!")
+        if overwrite_existing_corpus and self.corpus_dirpath is None:
             raise ValueError("Cannot use save to existing path on Corpus generated from utterance list!")
-        if not save_to_existing_path:
+        if not overwrite_existing_corpus:
             if base_path is None:
                 base_path = os.path.expanduser("~/.convokit/")
                 if not os.path.exists(base_path):
@@ -182,7 +182,7 @@ class Corpus:
                     os.mkdir(base_path)
             dir_name = os.path.join(base_path, dir_name)
         else:
-            dir_name = os.path.join(self.corpus_dirpath, name)
+            dir_name = os.path.join(self.corpus_dirpath)
 
         if not os.path.exists(dir_name):
             os.mkdir(dir_name)

@@ -89,7 +89,7 @@ class PairedVectorPrediction(PairedPrediction):
         By default, assumes it is a pipeline with a logistic regression component. For other setups, the user should
         define a custom `coef_func`.
 
-        :param feature_names: list of feature names to get coefficients for. if None, uses vectorizer vocabulary
+        :param feature_names: list of feature names to get coefficients for
         :param coef_func: (optional) function for accessing the list of coefficients from the classifier model
         :return: DataFrame of features and coefficients, indexed by feature names
         """

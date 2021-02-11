@@ -39,8 +39,9 @@ class CorpusComponent:
     def set_id(self, value):
         if not isinstance(value, str) and value is not None:
             self._id = str(value)
-            warn("{} id must be a string. Input has been casted to string.".format(self.obj_type))
-        self._id = value
+            warn("{} id must be a string. ID input has been casted to a string.".format(self.obj_type))
+        else:
+            self._id = value
 
     id = property(get_id, set_id)
 

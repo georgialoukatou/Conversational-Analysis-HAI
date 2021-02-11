@@ -8,8 +8,14 @@ from convokit.transformer import Transformer
 from convokit.util import deprecation
 
 class Coordination(Transformer):
-    """Encapsulates computation of coordination-based features for a particular
-    corpus.
+    """Linguistic coordination is a measure of the propensity of a
+    speaker to echo the language of another speaker in a
+    conversation, as defined in "Echoes of Power: Language Effects
+    and Power Differences in Social Interaction"
+    (http://www.cs.cornell.edu/~cristian/Echoes_of_power.html)
+    
+    This Transformer encapsulates computation of coordination-based features
+    for a particular corpus.
 
     Coordination is a measure of power differences between speakers in a
     conversation, based on the propensity of a speaker to echo the same
@@ -20,10 +26,8 @@ class Coordination(Transformer):
     This transformer contains various functions to measure coordination on
     different conversational scales. Calling `transform()` will annotate each
     speaker in the corpus with their coordination to all speakers they directly
-    reply to. The `score()` function is a convenience method that computes
-    aggregated coordination scores between two groups of speakers. Finally, the
-    `score_report()` function will summarize the results of `score()` in a few
-    global metrics (using the three aggregation methods defined in the paper).
+    reply to. The `summarize()` function is a convenience method that computes
+    aggregated coordination scores between two groups of speakers.
     
     Note: labeling method is slightly different from that used in the paper --
     we no longer match words occurring in the middle of other words and that
@@ -73,7 +77,10 @@ class Coordination(Transformer):
         self.fit(corpus)
 
     def transform(self, corpus: Corpus) -> Corpus:
-        """Generate coordination scores for the corpus you called fit on."""
+        """Generate coordination scores for the corpus you called fit on.
+        
+        Each speaker's coordination attribute will be a dictionary from targets
+        to coordination scores between that speaker and target."""
         if corpus != self.corpus:
             raise Exception("Coordination: must fit and transform on same corpus")
         if not self.precomputed:
@@ -114,8 +121,8 @@ class Coordination(Transformer):
               utterances_thresh_indiv: Optional[int] = None,
               utterance_thresh_func: Optional[Callable[[Tuple[Utterance, Utterance]], bool]] = None,
               split_by_attribs: Optional[List[str]] = None,
-              speaker_utterance_selector: Callable[[Utterance], bool] = lambda obj: True,
-              target_utterance_selector: Callable[[Utterance], bool] = lambda obj: True,
+              speaker_utterance_selector: Callable[[Tuple[Utterance, Utterance]], bool] = lambda utt1, utt2: True,
+              target_utterance_selector: Callable[[Tuple[Utterance, Utterance]], bool] = lambda utt1, utt2: True,
               speaker_attribs: Optional[Dict] = None, target_attribs: Optional[Dict] = None) -> CoordinationScore:
         """Computes a summary of the coordination scores by giving an
         aggregated score between two groups of speakers.
@@ -156,11 +163,13 @@ class Coordination(Transformer):
         :param utterances_thresh_indiv: Like `utterances_thresh` but thresholds whether a single target's utterances should be considered for a particular speaker.
         :param utterance_thresh_func: Optional utterance-level threshold function that takes in a speaker `Utterance` and the `Utterance` the speaker replied to, and returns a `bool` corresponding to whether or not to include the utterance in scoring.
         :param split_by_attribs: Utterance meta attributes to split speakers by when tallying coordination (e.g. in supreme court transcripts, you may want to treat the same lawyer as a different person across different cases --- see coordination examples)
-        :param speaker_utterance_selector: A lambda function returning True or
-        False for whether a speaker utterance should be considered. Useful for
+        :param speaker_utterance_selector: A lambda function that takes a
+        speaker and target utterance pair and returns True or
+        False for whether the speaker utterance should be considered. Useful for
         filtering the set of utterances before processing.
-        :param target_utterance_selector: A lambda function returning True or
-        False for whether a target utterance should be considered. Useful for
+        :param target_utterance_selector: A lambda function that takes a
+        speaker and target utterance pair and returns True or
+        False for whether the target utterance should be considered. Useful for
         filtering the set of utterances before processing.
 
         :return: If summary_report=True, returns a :class:`CoordinationScore`
@@ -184,14 +193,14 @@ class Coordination(Transformer):
         else:
             deprecation("Coordination's speaker_attribs parameter",
                 'speaker_utterance_selector')
-            speaker_utterance_selector = lambda utt: (
+            speaker_utterance_selector = lambda utt, _: (
                 Coordination._utterance_has_attribs(utt, speaker_attribs))
         if target_attribs is None:
             target_attribs = dict()
         else:
             deprecation("Coordination's target_attribs parameter",
                 'target_utterance_selector')
-            target_utterance_selector = lambda utt: (
+            target_utterance_selector = lambda _, utt: (
                 Coordination._utterance_has_attribs(utt, target_attribs))
 
         if speaker_thresh is None: speaker_thresh = self.speaker_thresh
@@ -379,8 +388,9 @@ class Coordination(Transformer):
                                utterance_thresh_func: Optional[Callable[[Tuple[Utterance, Utterance]], bool]]=None,
                                focus: str="speakers",
                                split_by_attribs: Optional[List[str]]=None,
-                               speaker_utterance_selector: Callable[[Utterance], bool] = lambda obj: True,
-                               target_utterance_selector: Callable[[Utterance], bool] = lambda obj: True) -> CoordinationScore:
+                               speaker_utterance_selector: Callable[[Tuple[Utterance, Utterance]], bool] = lambda utt1, utt2: True,
+                               target_utterance_selector: Callable[[Tuple[Utterance, Utterance]], bool] = lambda utt1, utt2: True
+                                   ) -> CoordinationScore:
         assert not isinstance(speakers, str)
         assert focus == "speakers" or focus == "targets"
 
@@ -404,8 +414,8 @@ class Coordination(Transformer):
 
                 #speaker_has_attribs = Coordination._utterance_has_attribs(utt2, speaker_attribs)
                 #target_has_attribs = Coordination._utterance_has_attribs(utt1, target_attribs)
-                speaker_filter = speaker_utterance_selector(utt2)
-                target_filter = target_utterance_selector(utt1)
+                speaker_filter = speaker_utterance_selector(utt2, utt1)
+                target_filter = target_utterance_selector(utt2, utt1)
 
                 if not speaker_filter or not target_filter: continue
 

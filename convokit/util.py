@@ -88,6 +88,10 @@ def download(name: str, verbose: bool = True, data_dir: str = None, use_newest_v
         wikiconv_year = name.split("-")[1]
         cur_version[name] = cur_version['wikiconv']
         DatasetURLs[name] = _get_wikiconv_year_info(wikiconv_year)
+    elif name.startswith("supreme-"):
+        supreme_year = name.split('-')[1]
+        cur_version[name] = cur_version['supreme']
+        DatasetURLs[name] = _get_supreme_info(supreme_year)
     else:
         name = name.lower()
 
@@ -253,7 +257,6 @@ def corpus_version(filename: str) -> int:
         d = json.load(f)
         return int(d["version"])
 
-
 # retrieve grouping and completes the download link for subreddit
 def get_subreddit_info(subreddit_name: str) -> str:
 
@@ -295,6 +298,10 @@ def _get_wikiconv_year_info(year: str) -> str:
 
     return data_dir + year + "/full.corpus.zip"
 
+def _get_supreme_info(year: str) -> str:
+
+    supreme_base = "http://zissou.infosci.cornell.edu/convokit/datasets/supreme-corpus/"
+    return supreme_base + 'supreme-' + year + '.zip'
 
 def meta_index(corpus=None, filename: str = None) -> Dict:
     keys = ["utterances-index", "conversations-index", "speakers-index",

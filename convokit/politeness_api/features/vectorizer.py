@@ -82,7 +82,7 @@ class PolitenessFeatureVectorizer:
 
     @staticmethod
     def preprocess(documents): 
-        nlp = spacy.load('en')
+        nlp = spacy.load('en_core_web_sm')
 
         for document in documents:
             document['sentences'] = nltk.sent_tokenize(document['text'])

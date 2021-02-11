@@ -1,5 +1,5 @@
-from spacy.tests.util import get_doc
-from spacy.util import get_lang_class
+import spacy
+from spacy.tokens import Doc
 
 from convokit.model import Corpus, Utterance, Speaker
 
@@ -16,34 +16,34 @@ BURR_SIR_SENTENCE_4 = 'Who\'s asking?'
 
 
 def en_vocab():
-    return get_lang_class('en').Defaults.create_vocab()
+    return spacy.load('en_core_web_sm').vocab
 
 
 def fox_doc():
-    return get_doc(
+    return Doc(
         vocab=en_vocab(),
         words=['A', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog'],
-        heads=[4, 3, 2, 1, 0, -1, 2, 1, -3],
+        heads=[4, 4, 4, 4, 4, 4, 8, 8, 5],
         deps=['det', 'amod', 'amod', 'NN', 'ROOT', 'prep', 'det', 'amod', 'pobj'],
         tags=['DT', 'JJ', 'JJ', 'NN', 'NNS', 'IN', 'DT', 'JJ', 'NN']
     )
 
 
 def buffalo_doc():
-    return get_doc(
+    return Doc(
         vocab=en_vocab(),
         words=['Buffalo', 'buffalo', 'Buffalo', 'buffalo', 'buffalo', 'buffalo', 'Buffalo', 'buffalo'],
-        heads=[1, 0, 1, 1, 1, 0, 1, 0],
+        heads=[1, 1, 3, 4, 5, 5, 7, 7],
         deps=['compound', 'ROOT', 'compound', 'compound', 'nsubj', 'ROOT', 'compound', 'ROOT'],
         tags=['NNP', 'NNP', 'NNP', 'NNP', 'NNP', 'NNP', 'NNP', 'NNP']
     )
 
 
 def fox_buffalo_doc():
-    return get_doc(
+    return Doc(
         vocab=en_vocab(),
         words=['A', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog', '.', 'Buffalo', 'buffalo', 'Buffalo', 'buffalo', 'buffalo', 'buffalo', 'Buffalo', 'buffalo'],
-        heads=[4, 3, 2, 1, 0, -1, 2, 1, -3, -5, 1, 0, 1, 1, 1, 0, 1, 0],
+        heads=[4, 4, 4, 4, 4, 4, 8, 8, 5, 4, 11, 11, 13, 14, 15, 15, 17, 17],
         deps=['det', 'amod', 'amod', 'compound', 'ROOT', 'prep', 'det', 'amod', 'pobj', 'punct', 'compound', 'ROOT', 'compound', 'compound', 'nsubj', 'ROOT', 'compound', 'ROOT'],
         tags=['DT', 'JJ', 'JJ', 'NN', 'NNS', 'IN', 'DT', 'JJ', 'NN', '.', 'NNP', 'NNP', 'NNP', 'NNP', 'NNP', 'NNP', 'NNP', 'NNP']
     )
@@ -120,60 +120,60 @@ def parsed_burr_sir_corpus():
 
 
 def burr_sir_doc_1():
-    return get_doc(
+    return Doc(
         vocab=en_vocab(),
         words=['Pardon', 'me', '.', 'Are', 'you', 'Aaron', 'Burr', ',', 'sir', '?'],
-        heads=[0, -1, -2, 0, -1, 1, -3, -4, -5, -6],
+        heads=[0, 0, 0, 3, 3, 6, 3, 3, 3, 3],
         deps=['ROOT', 'dobj', 'punct', 'ROOT', 'nsubj', 'compound', 'attr', 'punct', 'npadvmod', 'punct'],
         tags=['VB', 'PRP', '.', 'VBP', 'PRP', 'NNP', 'NNP', ',', 'NN', '.']
     )
 
 
 def burr_sir_doc_2():
-    return get_doc(
+    return Doc(
         vocab=en_vocab(),
         words=['That', 'depends', '.', 'Who', "'s", 'asking', '?'],
-        heads=[1, 0, -1, 2, 1, 0, -1],
+        heads=[1, 1, 1, 5, 5, 5, 5],
         deps=['nsubj', 'ROOT', 'punct', 'nsubj', 'aux', 'ROOT', 'punct'],
         tags=['DT', 'VBZ', '.', 'WP', 'VBZ', 'VBG', '.']
     )
 
 
 def burr_sir_sentence_doc_1():
-    return get_doc(
+    return Doc(
         vocab=en_vocab(),
         words=['Pardon', 'me', '.'],
-        heads=[0, -1, -2],
+        heads=[0, 0, 0],
         deps=['ROOT', 'dobj', 'punct'],
         tags=['VB', 'PRP', '.']
     )
 
 
 def burr_sir_sentence_doc_2():
-    return get_doc(
+    return Doc(
         vocab=en_vocab(),
         words=['Are', 'you', 'Aaron', 'Burr', ',', 'sir', '?'],
-        heads=[0, -1, 1, -3, -4, -5, -6],
+        heads=[0, 0, 3, 0, 0, 0, 0],
         deps=['ROOT', 'nsubj', 'compound', 'attr', 'punct', 'npadvmod', 'punct'],
         tags=['VBP', 'PRP', 'NNP', 'NNP', ',', 'NN', '.']
     )
 
 
 def burr_sir_sentence_doc_3():
-    return get_doc(
+    return Doc(
         vocab=en_vocab(),
         words=['That', 'depends', '.'],
-        heads=[1, 0, -1],
+        heads=[1, 1, 1],
         deps=['nsubj', 'ROOT', 'punct'],
         tags=['DT', 'VBZ', '.']
     )
 
 
 def burr_sir_sentence_doc_4():
-    return get_doc(
+    return Doc(
         vocab=en_vocab(),
         words=['Who', "'s", 'asking', '?'],
-        heads=[2, 1, 0, -1],
+        heads=[2, 2, 2, 2],
         deps=['nsubj', 'aux', 'ROOT', 'punct'],
         tags=['WP', 'VBZ', 'VBG', '.']
     )

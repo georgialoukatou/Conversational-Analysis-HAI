@@ -6,7 +6,6 @@ Datasets
    Conversations Gone Awry Dataset (Reddit CMV version) <awry_cmv.rst>
    Cornell Movie-Dialogs Corpus <movie.rst>
    Parliament Question Time Corpus <parliament.rst>
-   Supreme Court Corpus <supreme.rst>
    Wikipedia Talk Pages Corpus <wiki.rst>
    Tennis Interviews <tennis.rst>
    Reddit Corpus (all, by subreddit) <subreddit.rst>
@@ -23,4 +22,4 @@ Datasets
    Stanford Politeness Corpus (Stack Exchange) <stack_politeness.rst>
    Deception in Diplomacy Corpus <diplomacy.rst>
    Group Affect and Performance (GAP) Corpus <gap.rst>
-   Oyez Supreme Court Oral Arguments Dataset <oyez.rst>
+   Supreme Court Oral Arguments Dataset <supreme.rst>

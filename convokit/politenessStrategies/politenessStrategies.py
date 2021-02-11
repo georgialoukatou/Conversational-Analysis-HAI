@@ -5,7 +5,7 @@ from convokit.politeness_local.marker_extractor import get_local_politeness_stra
 from convokit.politeness_collections.chinese_strategies.strategy_extractor import get_chinese_politeness_strategy_features
 from convokit.text_processing.textParser import process_text
 from convokit.transformer import Transformer
-from convokit.model import Corpus
+from convokit.model import Corpus, Utterance, Speaker
 import re
 import spacy
 import pandas as pd
@@ -76,10 +76,10 @@ class PolitenessStrategies(Transformer):
         """
         
         if isinstance(utterance, str):
-            utterance = Utterance(text=utterance)
+            utterance = Utterance(text=utterance, speaker=Speaker(id='speaker'))
         
         if spacy_nlp is None:
-            spacy_nlp = spacy.load('en', disable=['ner'])
+            spacy_nlp = spacy.load('en_core_web_sm', disable=['ner'])
             
         utterance.meta['parsed'] = process_text(utterance.text, spacy_nlp=spacy_nlp)
         

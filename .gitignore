@@ -12,6 +12,7 @@
 *.p
 /doc/build/
 /convokit/data/downloads/
+datasets/supreme-corpus/supreme-raw/
 /convokit/downloads/
 examples/*.txt
 *.png
@@ -37,3 +38,4 @@ venv-triadmotif/
 *.csv
 *.tsv
 !/doc/source/img/*
+env/

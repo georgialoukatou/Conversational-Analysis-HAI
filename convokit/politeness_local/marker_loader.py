@@ -21,18 +21,9 @@ MODE_FILE = pkg_resources.resource_filename("convokit",
 ############## LOADING MARKER INFO ####################
 
 # Loading basic markers 
-def load_basic_markers(unigram_path=None, ngram_path=None, start_path=None):
+def load_basic_markers(unigram_path=UNIGRAM_FILE, ngram_path=NGRAM_FILE, start_path=START_FILE):
     
     # load unigram markers 
-    if unigram_path is None:
-        unigram_path = UNIGRAM_FILE
-    
-    if ngram_path is None:
-        ngram_path = NGRAM_FILE
-    
-    if start_path is None:
-        start_path = START_FILE
-    
     with open(unigram_path, "r") as f:
         unigram_dict = json.load(f)
 

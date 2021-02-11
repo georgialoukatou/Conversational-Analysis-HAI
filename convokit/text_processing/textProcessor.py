@@ -1,5 +1,5 @@
 from convokit.transformer import Transformer
-from convokit.model import Corpus, Utterance
+from convokit.model import Corpus, Utterance, Speaker
 from inspect import signature
 
 class TextProcessor(Transformer):
@@ -83,7 +83,7 @@ class TextProcessor(Transformer):
         """
 
         if isinstance(utt, str):
-            utt = Utterance(text=utt)
+            utt = Utterance(text=utt, speaker=Speaker(id="speaker"))
         if self.input_field is None:
             text_entry = utt.text
         else:

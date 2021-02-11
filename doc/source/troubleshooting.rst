@@ -23,7 +23,7 @@ However, there is a secondary issue specific to Windows machines:
 .. image:: img/windows-failed-spacy-link.jpeg
 .. image:: img/windows-failed-spacy-load.jpeg
 
-The output from the command suggests that linking is successful and that *spacy.load('en')* should succeed. However, a closer inspection of the first set of outputs reveals an error message: "You do not have sufficient privilege to perform this operation."
+The output from the command suggests that linking is successful and that *spacy.load('en_core_web_sm')* should succeed. However, a closer inspection of the first set of outputs reveals an error message: "You do not have sufficient privilege to perform this operation."
 
 The operation referred to is the linking of 'en'. This issue has been raised `here <https://github.com/explosion/spaCy/issues/1283>`_ and has been acknowledged as a bug.
 
