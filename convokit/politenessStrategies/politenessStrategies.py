@@ -1,11 +1,13 @@
 from typing import Callable, Optional
 from convokit.model import Utterance
-from convokit.politeness_api.features.politeness_strategies import get_politeness_strategy_features
-from convokit.politeness_local.marker_extractor import get_local_politeness_strategy_features
-from convokit.politeness_collections.chinese_strategies.strategy_extractor import get_chinese_politeness_strategy_features
 from convokit.text_processing.textParser import process_text
 from convokit.transformer import Transformer
 from convokit.model import Corpus, Utterance, Speaker
+
+from convokit.politeness_collections.politeness_api.features.politeness_strategies import get_politeness_strategy_features
+from convokit.politeness_collections.politeness_local.marker_extractor import get_local_politeness_strategy_features
+from convokit.politeness_collections.chinese_strategies.strategy_extractor import get_chinese_politeness_strategy_features
+
 import re
 import spacy
 import pandas as pd
@@ -68,7 +70,7 @@ class PolitenessStrategies(Transformer):
     
     def transform_utterance(self, utterance, spacy_nlp = None, markers = False):
         """
-        Extract politeness strategies for raw string inputs. 
+        Extract politeness strategies for raw string inputs (or individual utterances)
         
         :param utterance: the utterance to be annotated with politeness strategies. 
         :spacy_nlp: if provided, will use this SpaCy object to do parsing; otherwise will initialize an object via `load('en')`.
@@ -80,8 +82,9 @@ class PolitenessStrategies(Transformer):
         
         if spacy_nlp is None:
             spacy_nlp = spacy.load('en_core_web_sm', disable=['ner'])
-            
-        utterance.meta['parsed'] = process_text(utterance.text, spacy_nlp=spacy_nlp)
+        
+        if "parsed" not in utterance.meta:
+            utterance.meta['parsed'] = process_text(utterance.text, spacy_nlp=spacy_nlp)
         
         for i, sent in enumerate(utterance.meta["parsed"]):
             

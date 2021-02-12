@@ -57,7 +57,8 @@ class TextParser(TextProcessor):
 				elif mode == 'tag':
 					aux_input['spacy_nlp'] = spacy.load('en_core_web_sm', disable=['ner','parser'])
 				elif mode == 'tokenize':
-					aux_input['spacy_nlp'] = spacy.load('en_core_web_sm', disable=['ner','parser', 'tagger'])
+                    # also disable lemmatizer otherwise it triggers warning W108 
+					aux_input['spacy_nlp'] = spacy.load('en_core_web_sm', disable=['ner','parser', 'tagger', 'lemmatizer'])
 			except OSError:
                 
 				print("Convokit requires a SpaCy model to be installed. Run `python -m spacy download MODEL_NAME` and retry.")
@@ -79,8 +80,9 @@ class TextParser(TextProcessor):
 						sys.exit()
             
 				# For other languages, use spaCy's rule-based sentencizer 
-				elif 'sentencizer' not in aux_input['spacy_nlp'].pipe_names:
-					aux_input['spacy_nlp'].add_pipe('sentencizer')
+                # first check is for when the user provides a spacy_nlp with parser (despite the mode)
+				elif 'parser' not in aux_input['spacy_nlp'].pipe_names and 'sentencizer' not in aux_input['spacy_nlp'].pipe_names:
+					aux_input['spacy_nlp'].add_pipe('sentencizer', first=True)
                 
 			else:
 				aux_input['sent_tokenizer'] = sent_tokenizer
@@ -136,14 +138,15 @@ def process_text(text, mode='parse', sent_tokenizer=None, spacy_nlp=None):
 			warnings.warn('Sentence tokenizer is not provided. Spacy\'s rule-based sentencizer will be used.')
             
 			# add sentencizing to spacy's pipeline
-			if 'sentencizer' not in spacy_nlp.pipe_names:
-				spacy_nlp.add_pipe('sentencizer')
+			if 'parser' not in spacy_nlp.pipe_names and 'sentencizer' not in spacy_nlp.pipe_names:
+				spacy_nlp.add_pipe('sentencizer', first=True)
 	
 	if mode == 'parse' or sent_tokenizer is None:
 		sents = spacy_nlp(text).sents
 	else:
 		sents = [spacy_nlp(x) for x in (sent_tokenizer.tokenize(text))]
 	
+    
 	sentences = []
 	offset = 0
 	for sent in sents:

@@ -7,9 +7,9 @@ join_tokens = lambda p: " ".join([" ".join([tok['tok'] for tok in sent['toks']])
 
 class TextToTokenized(TextProcessor):
     """
-    Transformer that formats utterance texts as space-separated (tokenized) text. Intended especially for languages which do not include spaces between words.
+    Transformer that formats utterance texts as space-separated (tokenized) text. Intended especially for languages which do not seperate words with spaces (such as Chinese).
 
-    :param input_field: name of attribute to use as input. This attribute must point to a string, and defaults to utterance.text.
+    :param input_field: name of field to use as input. defaults to 'parsed', which stores dependency parses as returned by the TextParser transformer; otherwise expects similarly-formatted input.
     :param input_filter: a boolean function of signature `input_filter(utterance, aux_input)`.
         Text segmentation will only be applied to utterances where `input_filter` returns `True`.
         By default, will always return `True`, meaning that all utterances will be tokenized.
@@ -21,7 +21,7 @@ class TextToTokenized(TextProcessor):
     """
     def __init__(self, tokenizer: Optional[Callable[[str], str]]=None, 
                  input_field="parsed", input_filter=lambda utt, aux: True,
-                 verbosity: int = 100, replace_text: bool = True, save_original: bool = True):
+                 verbosity: int = 1000, replace_text: bool = True, save_original: bool = False):
 
         if replace_text:
             if save_original:
@@ -50,10 +50,51 @@ class TextToTokenized(TextProcessor):
                 
                 if self.save_original:
                     utt.add_meta(self.output_field, utt.text)
-                
                 utt.text = tokenized_text
 
             if not self.save_original:
                 corpus.delete_metadata('utterance', self.output_field)
         
         return corpus  
+    
+    
+    def transform_utterance(self, utt, override_input_filter=False):
+        """
+        Overrides TextProcessor's transform_utterance
+
+        :param utt: utterance or a string
+        :param override_input_filter: ignore `input_filter` and compute attribute for all utterances
+        :return: the utterance
+        """
+
+        if isinstance(utt, str):
+            utt = Utterance(text=utt, speaker=Speaker(id="speaker"))
+        
+        if self.input_field is None:
+            raise ValueError('input_fieldrequired.')
+        
+        else:
+            if not override_input_filter:
+                if not self.input_filter(utt, self.aux_input): 
+                    return utt 
+                text_entry = utt.retrieve_meta(self.input_field)
+        
+        if text_entry is None:
+            return utt
+        
+        if len(self.aux_input) == 0:
+            result = self.proc_fn(text_entry)
+        else:
+            result = self.proc_fn(text_entry, self.aux_input)
+            
+        if self.replace_text:
+            
+            if self.save_original:
+                utt.add_meta(self.output_field, utt.text)
+        
+            utt.text = result
+        
+        else:
+            utt.add_meta(self.output_field, result)
+        
+        return utt

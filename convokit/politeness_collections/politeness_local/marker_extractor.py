@@ -1,6 +1,6 @@
 from itertools import chain 
 from collections import defaultdict
-from convokit.politeness_local.marker_loader import load_basic_markers, load_marker_mode
+from convokit.politeness_collections.politeness_local.marker_loader import load_basic_markers, load_marker_mode
 
 # load markers 
 UNIGRAM_MARKERS, START_MARKERS, NGRAM_MARKERS = load_basic_markers()

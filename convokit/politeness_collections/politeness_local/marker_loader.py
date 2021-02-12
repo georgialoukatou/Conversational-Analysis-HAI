@@ -5,17 +5,17 @@ from collections import defaultdict
 
 
 UNIGRAM_FILE = pkg_resources.resource_filename("convokit",
-    os.path.join("politeness_local/lexicons", "unigram_strategies.json"))
+    os.path.join("politeness_collections/politeness_local/lexicons", "unigram_strategies.json"))
 
 NGRAM_FILE = pkg_resources.resource_filename("convokit",
-    os.path.join("politeness_local/lexicons", "ngram_strategies.json"))
+    os.path.join("politeness_collections/politeness_local/lexicons", "ngram_strategies.json"))
 
 
 START_FILE = pkg_resources.resource_filename("convokit",
-    os.path.join("politeness_local/lexicons", "start_strategies.json"))
+    os.path.join("politeness_collections/politeness_local/lexicons", "start_strategies.json"))
 
 MODE_FILE = pkg_resources.resource_filename("convokit",
-    os.path.join("politeness_local/lexicons", "marker_mode.json"))
+    os.path.join("politeness_collections/politeness_local/lexicons", "marker_mode.json"))
 
 
 ############## LOADING MARKER INFO ####################
