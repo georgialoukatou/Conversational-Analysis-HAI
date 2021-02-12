@@ -81,7 +81,7 @@ class PolitenessStrategies(Transformer):
             utterance = Utterance(text=utterance, speaker=Speaker(id='speaker'))
         
         if spacy_nlp is None:
-            spacy_nlp = spacy.load('en_core_web_sm', disable=['ner'])
+            raise ValueError('spacy object required')
         
         if "parsed" not in utterance.meta:
             utterance.meta['parsed'] = process_text(utterance.text, spacy_nlp=spacy_nlp)
@@ -113,11 +113,13 @@ class PolitenessStrategies(Transformer):
             self.transform(corpus, markers=True)
             print("Done.")
 
-        counts = {k[21:len(k)-2]: 0 for k in utts[0].meta[self.marker_attribute_name].keys()}
+        counts = {k: 0 for k in utts[0].meta[self.marker_attribute_name].keys()}
 
         for utt in utts:
             for k, v in utt.meta[self.marker_attribute_name].items():
-                counts[k[21: len(k)-2]] += len(v)
+                
+                # TODO fix this 
+                counts[k] += len(v)
         scores = {k: v/len(utts) for k, v in counts.items()}
         return scores
 
