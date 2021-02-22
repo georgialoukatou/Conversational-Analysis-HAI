@@ -84,6 +84,8 @@ def _process_token(token_obj, mode='parse', offset=0):
 		token_info = {'tok': token_obj.text, 'tag': token_obj.tag_}
 	if mode == 'parse':
 		token_info['dep'] = token_obj.dep_
+                token_info['pos'] = token_obj.pos_
+                token_info['lemma'] = token_obj.lemma_
 		if token_info['dep'] != 'ROOT':
 			token_info['up'] = next(token_obj.ancestors).i - offset
 		token_info['dn'] = [x.i - offset for x in token_obj.children]
