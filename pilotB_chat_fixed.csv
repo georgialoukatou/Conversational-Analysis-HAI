@@ -1,4 +1,4 @@
-utt_id,row_id,index,stageIds,gameId,createdAt,targetNum,repNum,trialNum,text,playerId,target,role,countCorrect,speaker,submitted
+utt_id,row_id,index,stageIds,gameId,createdAt,targetNum,repNum,trialNum,text,playerId,target,role,countCorrect,notrelevantspeaker,submitted
 1,5D4wy6rk9qKbiM5Yp,0,MW7d2EbPWrDvyFJW2_BygjiM3rNtti9ndCk,3dLr9pks9cHhyLrfW,2021-03-08T20:30:09Z,0,0,0,looks like they are pointing to the right,XzSxf5dbkTQbAySyn,/experiment/tangram_L.png,speaker,2,XzSxf5dbkTQbAySyn,TRUE
 2,5D4wy6rk9qKbiM5Yp,0,MW7d2EbPWrDvyFJW2_BygjiM3rNtti9ndCk,3dLr9pks9cHhyLrfW,2021-03-08T20:30:09Z,0,0,0,Does it have an upwards pointing tail?,TmGhWCgqKsPPuwW7m,/experiment/tangram_L.png,listener,2,XzSxf5dbkTQbAySyn,TRUE
 3,5D4wy6rk9qKbiM5Yp,0,MW7d2EbPWrDvyFJW2_BygjiM3rNtti9ndCk,3dLr9pks9cHhyLrfW,2021-03-08T20:30:09Z,0,0,0,no; it looks like it is crouching,XzSxf5dbkTQbAySyn,/experiment/tangram_L.png,speaker,2,XzSxf5dbkTQbAySyn,TRUE
