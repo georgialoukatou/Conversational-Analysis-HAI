@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/pypi/pyversions/convokit" alt="versions"></a>    
 </p>
 
-This toolkit contains tools to extract conversational features and analyze social phenomena in conversations, using a [single unified interface](https://convokit.cornell.edu/documentation/architecture.html) inspired by (and compatible with) scikit-learn.  Several large [conversational datasets](https://github.com/CornellNLP/Cornell-Conversational-Analysis-Toolkit#datasets) are included together with scripts exemplifying the use of the toolkit on these datasets. The latest version is [2.4.4](https://github.com/CornellNLP/Cornell-Conversational-Analysis-Toolkit/releases/tag/v2.4) (released 19 Feb 2021); follow the [project on GitHub](https://github.com/CornellNLP/Cornell-Conversational-Analysis-Toolkit) to keep track of updates.
+This toolkit contains tools to extract conversational features and analyze social phenomena in conversations, using a [single unified interface](https://convokit.cornell.edu/documentation/architecture.html) inspired by (and compatible with) scikit-learn.  Several large [conversational datasets](https://github.com/CornellNLP/Cornell-Conversational-Analysis-Toolkit#datasets) are included together with scripts exemplifying the use of the toolkit on these datasets. The latest version is [2.4.5](https://github.com/CornellNLP/Cornell-Conversational-Analysis-Toolkit/releases/tag/v2.4) (released 23 Feb 2021); follow the [project on GitHub](https://github.com/CornellNLP/Cornell-Conversational-Analysis-Toolkit) to keep track of updates.
 
 Read our [documentation](https://convokit.cornell.edu/documentation) or try ConvoKit in our [interactive tutorial](https://colab.research.google.com/github/CornellNLP/Cornell-Conversational-Analysis-Toolkit/blob/master/examples/Introduction_to_ConvoKit.ipynb).
 
@@ -153,6 +153,12 @@ Name for download: `diplomacy-corpus`
 A conversational dataset comprising group meetings of two to four participants that deliberate in a group decision-making exercise. This dataset contains 28 group meetings with a total of 84 participants.
 
 Name for download: `gap-corpus`
+
+### [Wikipedia Articles for Deletion Corpus](https://convokit.cornell.edu/documentation/wiki-articles-for-deletion-corpus.html)
+
+A collection of Wikipedia's Articles for Deletion editor debates that occurred between January 1, 2005 and December 31, 2018. This corpus contains about 3,200,000 contributions by approximately 150,000 Wikipedia editors across almost 400,000 debates.
+
+Name for download: `wiki-articles-for-deletion-corpus`
 
 ### ...And your own corpus!
 
