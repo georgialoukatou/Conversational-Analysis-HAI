@@ -1,4 +1,4 @@
-utt_id,row_id,index,stageIds,gameId,createdAt,targetNum,repNum,trialNum,text,playerId,target,role,countCorrect,notrelevantspeaker,submitted
+utt_id,row_id,index,stageIds,gameId,createdAt,targetNum,repNum,trialNum,text,playerId,target,role,countCorrect,speaker,submitted
 1,5D4wy6rk9qKbiM5Yp,0,MW7d2EbPWrDvyFJW2_BygjiM3rNtti9ndCk,3dLr9pks9cHhyLrfW,2021-03-08T20:30:09Z,0,0,0,looks like they are pointing to the right,XzSxf5dbkTQbAySyn,/experiment/tangram_L.png,speaker,2,XzSxf5dbkTQbAySyn,TRUE
 2,5D4wy6rk9qKbiM5Yp,0,MW7d2EbPWrDvyFJW2_BygjiM3rNtti9ndCk,3dLr9pks9cHhyLrfW,2021-03-08T20:30:09Z,0,0,0,Does it have an upwards pointing tail?,TmGhWCgqKsPPuwW7m,/experiment/tangram_L.png,listener,2,XzSxf5dbkTQbAySyn,TRUE
 3,5D4wy6rk9qKbiM5Yp,0,MW7d2EbPWrDvyFJW2_BygjiM3rNtti9ndCk,3dLr9pks9cHhyLrfW,2021-03-08T20:30:09Z,0,0,0,no; it looks like it is crouching,XzSxf5dbkTQbAySyn,/experiment/tangram_L.png,speaker,2,XzSxf5dbkTQbAySyn,TRUE
@@ -832,395 +832,289 @@ utt_id,row_id,index,stageIds,gameId,createdAt,targetNum,repNum,trialNum,text,pla
 831,L2RP6zwL8XJ6rWCiS,26,bChhavwtzCcwtzuZA_WfEXLK8bbxYcjYrZE,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,2,2,26,cube standing on piece of furniture,hPCE2W2nsW737JfLM,/experiment/tangram_J.png,speaker,1,hPCE2W2nsW737JfLM,TRUE
 832,xaBSTkbNhbnvJtnNw,27,g68ThhapiSGkyB5RS_aTAs8BBdbw5gt6r76,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,3,2,27,man standing and offering sacrifice,hPCE2W2nsW737JfLM,/experiment/tangram_D.png,speaker,1,hPCE2W2nsW737JfLM,TRUE
 833,3gf7f42BnzPdueXYs,28,A5TPfn5ThFDEZ7kxK_WmJ6iqTtRHkzdhP4n,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,4,2,28,man sitting on his back (with legs),hPCE2W2nsW737JfLM,/experiment/tangram_F.png,speaker,2,hPCE2W2nsW737JfLM,TRUE
-834,HZZTpZhPrMkQJ9gJK,29,SzZoT5r79rabBg3pg_EWsH4uaJekJ2BsHcD,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,5,2,29,NA,NA,NA,NA,0,hPCE2W2nsW737JfLM,FALSE
-835,S5mXoLBdp5Wgo2SmK,30,swzisCTk4s4XL49oc_CSDjQPRFLY6TnLoT8,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,6,2,30,NA,NA,NA,NA,NA,NA,NA
-836,4ZRGPaiPxt2Dgzw97,31,SMK2N8dMC33AQ7A6Q_o8odczNqNLipcYPsr,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,7,2,31,NA,NA,NA,NA,NA,NA,NA
-837,BFuM8sz7983atFptm,32,xoLzajQX5MuwdhRNL_J8vtcvJKLK55tZsHq,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,8,2,32,NA,NA,NA,NA,NA,NA,NA
-838,o2eWdtHc3E7BQ8rmW,33,nPfoLfxeDhz83xKao_dB4B55q7rAaB7xhmG,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,9,2,33,NA,NA,NA,NA,NA,NA,NA
-839,dv8mpiTDc6xEkAfhY,34,RYztnsi65etZXZSfp_qK9Q38QcWjPft7KCH,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,10,2,34,NA,NA,NA,NA,NA,NA,NA
-840,xJoDG9ABvHenSC62A,35,Qh7uwjTcopeipbmEX_SBFZDHXBM4qad46Yh,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,11,2,35,NA,NA,NA,NA,NA,NA,NA
-841,Adur3xfgJNzMGZ87R,36,CFdFZHqYKtabLmxDb_ycfKaxeRA6j4JLcuM,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,0,3,36,NA,NA,NA,NA,NA,NA,NA
-842,S8D64qKutbq3kdD3b,37,oqEdtMX438wQkBfRQ_RAokYCyGMxhdJ3XLJ,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,1,3,37,NA,NA,NA,NA,NA,NA,NA
-843,MnTzBEXDaEfAcMBQ4,38,9dngCRzmYeBzNZSux_xJa6CJckLEctuAa7S,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,2,3,38,NA,NA,NA,NA,NA,NA,NA
-844,DJp5ZAiWP4nFJJ2kT,39,NavZhihybxsRWesd3_aYMqRjzmjM5TFYZZX,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,3,3,39,NA,NA,NA,NA,NA,NA,NA
-845,fxRcrRYLDkDW7qF3u,40,8prkgknfpHy7Bwu35_QAmvD3KnfHjqXPh2p,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,4,3,40,NA,NA,NA,NA,NA,NA,NA
-846,4HwLWBKvogR5p3XCQ,41,fg43noJixd7CZdXRD_hQXCj4GYhbnTbyzhu,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,5,3,41,NA,NA,NA,NA,NA,NA,NA
-847,Tpu32pcqSDDhAGYrA,42,juDZcrLpfD48aKn7F_YpMa8Bbre74SAPqbM,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,6,3,42,NA,NA,NA,NA,NA,NA,NA
-848,Fis3gzuasfSaaFGjy,43,oMcg68yAGimJcvYQM_s9W3N4ruMwZoG4Gbb,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,7,3,43,NA,NA,NA,NA,NA,NA,NA
-849,wqKF7pseYpeaS3spk,44,hXjjHmCnBvxYNS9Ta_6hAXH5Gw3pGL6dbtg,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,8,3,44,NA,NA,NA,NA,NA,NA,NA
-850,A2z2snem4EhfaMhtX,45,WyEiB4C5XCykeDWRQ_Z4DkPFR2yi5KghAvz,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,9,3,45,NA,NA,NA,NA,NA,NA,NA
-851,Eqyp2d8eXyKDkceHS,46,WCjEf5XLtQ3tStEka_rNA2kwH2rZuzuF4vQ,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,10,3,46,NA,NA,NA,NA,NA,NA,NA
-852,D9YqkKr4PWEasRS3P,47,meZrdvXcWjTv8uFjB_mzzu2hqH23N6MHRF7,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,11,3,47,NA,NA,NA,NA,NA,NA,NA
-853,mGq34pM2vY6E4ytrx,48,rn3q5N28XYdYaSrn4_ANX8PdyBqn3cgrrMw,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,0,4,48,NA,NA,NA,NA,NA,NA,NA
-854,QhvS9jjKSsLr4DDjg,49,eTkwyGg7DB34HKpb5_bDz93xSb9PK8g6j3B,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,1,4,49,NA,NA,NA,NA,NA,NA,NA
-855,kJByoef64GPc25Z8j,50,dKKrrqgFuWbTraSjZ_KXJJWN9mBjPskC3MS,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,2,4,50,NA,NA,NA,NA,NA,NA,NA
-856,ox6wAJoo4pFwojbmc,51,i6n2pkEMdZasyW5X3_uTyJmMivCeaduv5rJ,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,3,4,51,NA,NA,NA,NA,NA,NA,NA
-857,S7jrqzbyQ35LTehhc,52,PurLX7JNPYzwRRaHQ_vvx2fWQmZDx7bFdyZ,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,4,4,52,NA,NA,NA,NA,NA,NA,NA
-858,ynvWi3tCBW3RMRAqM,53,YuxYo6nsTDRohRz6p_pTvEPYBTennMJwZwL,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,5,4,53,NA,NA,NA,NA,NA,NA,NA
-859,bB5sknhjD6RadXRxd,54,cEJgYYQMuNkeMTCGw_yNFBZXqC8WREeGseh,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,6,4,54,NA,NA,NA,NA,NA,NA,NA
-860,sfDHP8XHzDGMt5rY6,55,jPzpdF7R2XbHFDZmd_L56wSt6Fg2F6qdYaz,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,7,4,55,NA,NA,NA,NA,NA,NA,NA
-861,JfnmR6bmKKAXJh7Bx,56,AGMR3Jez2K2rtfBby_v5qL7XyE24CBKECNG,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,8,4,56,NA,NA,NA,NA,NA,NA,NA
-862,mPrGGvNYnPbaLfXmm,57,sxETmhpmvNP6TuuXz_56yka2E4yxKmqxthp,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,9,4,57,NA,NA,NA,NA,NA,NA,NA
-863,mJ5iYEyktzWce5pn9,58,9HTeqZipxevsGDtxL_Q6Kw9i5AjkDCrFGBN,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,10,4,58,NA,NA,NA,NA,NA,NA,NA
-864,2QkkPYEQRpyej4zW7,59,Y9zSw3CDzQ2nkZe6c_5C2cHD3HhP2Cd7rK2,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,11,4,59,NA,NA,NA,NA,NA,NA,NA
-865,tASgMNZgcfqAYqYqD,60,ZhzKbt2PF4d8uzD4X_i5NXYqG3M5jqPiMsh,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,0,5,60,NA,NA,NA,NA,NA,NA,NA
-866,ZpWECN3T5qg4p2Muh,61,Lv6jwJ8AFh7oBamfM_NSqAbWtG2jgvhDLwz,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,1,5,61,NA,NA,NA,NA,NA,NA,NA
-867,xh4gvEgFAh6tS3Wky,62,aJZ69MiKPnuHtg84f_brJCeSHLhwjntmuKk,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,2,5,62,NA,NA,NA,NA,NA,NA,NA
-868,Jjt9Qu3b3TJXDTkYq,63,jmjxrWDEZSs99NH2g_3Levxpeq6b2cnWNsk,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,3,5,63,NA,NA,NA,NA,NA,NA,NA
-869,g5LXa364AmyqLrBJu,64,ge8ZsYNzaan595hhM_eZbCbnbz7zXtbMFcL,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,4,5,64,NA,NA,NA,NA,NA,NA,NA
-870,Lf4AMjrRSDTMzL8Tv,65,iwxgWLayE6WZ56xDd_Xfm5d4nsKAZr3Ao2Z,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,5,5,65,NA,NA,NA,NA,NA,NA,NA
-871,89Bn7jyZL6ag7kHfg,66,vCv3akS4ijSaZoKjz_3yfTP4scu6fmjNT2k,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,6,5,66,NA,NA,NA,NA,NA,NA,NA
-872,DYKLJZ82fvS69Pqua,67,QLBGMsjWeWsMN2ac2_oQDyn9FmJbwio724b,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,7,5,67,NA,NA,NA,NA,NA,NA,NA
-873,HcE5xwiJet54Xj86K,68,mzasW4FDjHcSgKkzz_x7LEv9yYnEw9MzjN4,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,8,5,68,NA,NA,NA,NA,NA,NA,NA
-874,7Ez92n7A5MvkYPGMi,69,u9GHFgtGAegxNE2Lo_Qq7FdFPqMPP5TqaKm,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,9,5,69,NA,NA,NA,NA,NA,NA,NA
-875,zst2TfDsSFqyvMytJ,70,Hjx3sfBbnqoKpj8JP_PKkMttBs3f3EwfyuD,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,10,5,70,NA,NA,NA,NA,NA,NA,NA
-876,y4NJxd7ZGDfSMnFsX,71,mfzdtkbBfA5ojscho_wCRHvZwb8YLc263ce,bEmvWK8p8ipRxshb3,2021-03-08T20:32:51Z,11,5,71,NA,NA,NA,NA,NA,NA,NA
-877,qKn8BpRD8kNEdFurh,0,R6XtaZvFZ2CsT9hNF_PQyET7kpPCjRbrCTs,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,0,0,0,helloooooo,TcSFd2e7jR4nEmwgk,/experiment/tangram_B.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
-878,qKn8BpRD8kNEdFurh,0,R6XtaZvFZ2CsT9hNF_PQyET7kpPCjRbrCTs,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,0,0,0,hii,qFRcN5H2Wh32P5CXo,/experiment/tangram_B.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
-879,qKn8BpRD8kNEdFurh,0,R6XtaZvFZ2CsT9hNF_PQyET7kpPCjRbrCTs,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,0,0,0,what's the description?,TcSFd2e7jR4nEmwgk,/experiment/tangram_B.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
-880,qKn8BpRD8kNEdFurh,0,R6XtaZvFZ2CsT9hNF_PQyET7kpPCjRbrCTs,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,0,0,0,it looks like a mouse looking up,qFRcN5H2Wh32P5CXo,/experiment/tangram_B.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
-881,qKn8BpRD8kNEdFurh,0,R6XtaZvFZ2CsT9hNF_PQyET7kpPCjRbrCTs,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,0,0,0,can you share details,NDxDF3jtu4GsxE6Ka,/experiment/tangram_B.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
-882,qKn8BpRD8kNEdFurh,0,R6XtaZvFZ2CsT9hNF_PQyET7kpPCjRbrCTs,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,0,0,0,does that make sense?,qFRcN5H2Wh32P5CXo,/experiment/tangram_B.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
-883,qKn8BpRD8kNEdFurh,0,R6XtaZvFZ2CsT9hNF_PQyET7kpPCjRbrCTs,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,0,0,0,yes,TcSFd2e7jR4nEmwgk,/experiment/tangram_B.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
-884,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,good one!,NDxDF3jtu4GsxE6Ka,/experiment/tangram_G.png,listener,0,qFRcN5H2Wh32P5CXo,TRUE
-885,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,:),qFRcN5H2Wh32P5CXo,/experiment/tangram_G.png,speaker,0,qFRcN5H2Wh32P5CXo,TRUE
-886,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,share details,NDxDF3jtu4GsxE6Ka,/experiment/tangram_G.png,listener,0,qFRcN5H2Wh32P5CXo,TRUE
-887,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,can you share details on the descripton,NDxDF3jtu4GsxE6Ka,/experiment/tangram_G.png,listener,0,qFRcN5H2Wh32P5CXo,TRUE
-888,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,now it looks like someone is,qFRcN5H2Wh32P5CXo,/experiment/tangram_G.png,speaker,0,qFRcN5H2Wh32P5CXo,TRUE
-889,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,is?,TcSFd2e7jR4nEmwgk,/experiment/tangram_G.png,listener,0,qFRcN5H2Wh32P5CXo,TRUE
-890,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,worshiping,qFRcN5H2Wh32P5CXo,/experiment/tangram_G.png,speaker,0,qFRcN5H2Wh32P5CXo,TRUE
-891,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,but,qFRcN5H2Wh32P5CXo,/experiment/tangram_G.png,speaker,0,qFRcN5H2Wh32P5CXo,TRUE
-892,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,on their knees,qFRcN5H2Wh32P5CXo,/experiment/tangram_G.png,speaker,0,qFRcN5H2Wh32P5CXo,TRUE
-893,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,ok,TcSFd2e7jR4nEmwgk,/experiment/tangram_G.png,listener,0,qFRcN5H2Wh32P5CXo,TRUE
-894,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,lokking to the right,qFRcN5H2Wh32P5CXo,/experiment/tangram_G.png,speaker,0,qFRcN5H2Wh32P5CXo,TRUE
-895,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,sorry,qFRcN5H2Wh32P5CXo,/experiment/tangram_G.png,speaker,0,qFRcN5H2Wh32P5CXo,TRUE
-896,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,this one is easier,qFRcN5H2Wh32P5CXo,/experiment/tangram_D.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-897,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,didn't get that,TcSFd2e7jR4nEmwgk,/experiment/tangram_D.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
-898,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,me neither,NDxDF3jtu4GsxE6Ka,/experiment/tangram_D.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
-899,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,a person with a robe pointing to the left,qFRcN5H2Wh32P5CXo,/experiment/tangram_D.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-900,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,hmm,TcSFd2e7jR4nEmwgk,/experiment/tangram_D.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
-901,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,does it look like they are holding an item,NDxDF3jtu4GsxE6Ka,/experiment/tangram_D.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
-902,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,no,qFRcN5H2Wh32P5CXo,/experiment/tangram_D.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-903,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,can you add something else,NDxDF3jtu4GsxE6Ka,/experiment/tangram_D.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
-904,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,like a hand with long sleeve pointing,qFRcN5H2Wh32P5CXo,/experiment/tangram_D.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-905,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,they are standing,qFRcN5H2Wh32P5CXo,/experiment/tangram_D.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-906,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,idk,TcSFd2e7jR4nEmwgk,/experiment/tangram_D.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
-907,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,pointing left ?,NDxDF3jtu4GsxE6Ka,/experiment/tangram_D.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
-908,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,yes,qFRcN5H2Wh32P5CXo,/experiment/tangram_D.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-909,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,left,qFRcN5H2Wh32P5CXo,/experiment/tangram_D.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-910,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,standibg on one leg ?,NDxDF3jtu4GsxE6Ka,/experiment/tangram_D.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
-911,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,hurry,TcSFd2e7jR4nEmwgk,/experiment/tangram_D.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
-912,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,no just normal standing,qFRcN5H2Wh32P5CXo,/experiment/tangram_D.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-913,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,with long robe,qFRcN5H2Wh32P5CXo,/experiment/tangram_D.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-914,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,and like you can see the tip of their shoe,qFRcN5H2Wh32P5CXo,/experiment/tangram_D.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-915,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,as well pointing left,qFRcN5H2Wh32P5CXo,/experiment/tangram_D.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-916,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,i dont know,NDxDF3jtu4GsxE6Ka,/experiment/tangram_D.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
-917,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,just guess,TcSFd2e7jR4nEmwgk,/experiment/tangram_D.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
-918,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,gooo,TcSFd2e7jR4nEmwgk,/experiment/tangram_K.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
-919,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,is the one,qFRcN5H2Wh32P5CXo,/experiment/tangram_K.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-920,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,one of you got wrong,qFRcN5H2Wh32P5CXo,/experiment/tangram_K.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-921,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,last time,qFRcN5H2Wh32P5CXo,/experiment/tangram_K.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-922,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,on their knees,qFRcN5H2Wh32P5CXo,/experiment/tangram_K.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-923,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,praying,qFRcN5H2Wh32P5CXo,/experiment/tangram_K.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-924,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,right,qFRcN5H2Wh32P5CXo,/experiment/tangram_K.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-925,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,got it I think,TcSFd2e7jR4nEmwgk,/experiment/tangram_K.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
-926,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,same one again?,TcSFd2e7jR4nEmwgk,/experiment/tangram_K.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
-927,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,no,qFRcN5H2Wh32P5CXo,/experiment/tangram_K.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-928,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,I've guessed,NDxDF3jtu4GsxE6Ka,/experiment/tangram_K.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
-929,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,the one I clicked instead?,TcSFd2e7jR4nEmwgk,/experiment/tangram_K.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
-930,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,this one is on their knees,qFRcN5H2Wh32P5CXo,/experiment/tangram_K.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-931,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,ah ok,TcSFd2e7jR4nEmwgk,/experiment/tangram_K.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
-932,abHrWzwSCZQ3862bq,4,2QDADzYzR7PZkN7sQ_iyrm4MgLcdLMKvQ7r,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,4,0,4,is like someone is kicking a stone,qFRcN5H2Wh32P5CXo,/experiment/tangram_A.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
-933,abHrWzwSCZQ3862bq,4,2QDADzYzR7PZkN7sQ_iyrm4MgLcdLMKvQ7r,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,4,0,4,looking down,qFRcN5H2Wh32P5CXo,/experiment/tangram_A.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
-934,abHrWzwSCZQ3862bq,4,2QDADzYzR7PZkN7sQ_iyrm4MgLcdLMKvQ7r,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,4,0,4,sad,qFRcN5H2Wh32P5CXo,/experiment/tangram_A.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
-935,abHrWzwSCZQ3862bq,4,2QDADzYzR7PZkN7sQ_iyrm4MgLcdLMKvQ7r,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,4,0,4,ok,NDxDF3jtu4GsxE6Ka,/experiment/tangram_A.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
-936,abHrWzwSCZQ3862bq,4,2QDADzYzR7PZkN7sQ_iyrm4MgLcdLMKvQ7r,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,4,0,4,and has a little wing on its back,qFRcN5H2Wh32P5CXo,/experiment/tangram_A.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
-937,ytXnk3oJxX7X4jMab,5,cvK4AXiKBNPjQzpLr_6wqSAmESSLSBCTruK,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,0,5,a head,qFRcN5H2Wh32P5CXo,/experiment/tangram_H.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-938,ytXnk3oJxX7X4jMab,5,cvK4AXiKBNPjQzpLr_6wqSAmESSLSBCTruK,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,0,5,ok,TcSFd2e7jR4nEmwgk,/experiment/tangram_H.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
-939,ytXnk3oJxX7X4jMab,5,cvK4AXiKBNPjQzpLr_6wqSAmESSLSBCTruK,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,0,5,with long robe,qFRcN5H2Wh32P5CXo,/experiment/tangram_H.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-940,ytXnk3oJxX7X4jMab,5,cvK4AXiKBNPjQzpLr_6wqSAmESSLSBCTruK,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,0,5,it doesnt have anything,qFRcN5H2Wh32P5CXo,/experiment/tangram_H.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-941,ytXnk3oJxX7X4jMab,5,cvK4AXiKBNPjQzpLr_6wqSAmESSLSBCTruK,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,0,5,special,qFRcN5H2Wh32P5CXo,/experiment/tangram_H.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-942,ytXnk3oJxX7X4jMab,5,cvK4AXiKBNPjQzpLr_6wqSAmESSLSBCTruK,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,0,5,anything else,NDxDF3jtu4GsxE6Ka,/experiment/tangram_H.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
-943,ytXnk3oJxX7X4jMab,5,cvK4AXiKBNPjQzpLr_6wqSAmESSLSBCTruK,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,0,5,pointing right?,TcSFd2e7jR4nEmwgk,/experiment/tangram_H.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
-944,ytXnk3oJxX7X4jMab,5,cvK4AXiKBNPjQzpLr_6wqSAmESSLSBCTruK,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,0,5,just a head and a body,qFRcN5H2Wh32P5CXo,/experiment/tangram_H.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-945,ytXnk3oJxX7X4jMab,5,cvK4AXiKBNPjQzpLr_6wqSAmESSLSBCTruK,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,0,5,standing or what ?,NDxDF3jtu4GsxE6Ka,/experiment/tangram_H.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
-946,ytXnk3oJxX7X4jMab,5,cvK4AXiKBNPjQzpLr_6wqSAmESSLSBCTruK,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,0,5,no its not pointing,qFRcN5H2Wh32P5CXo,/experiment/tangram_H.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
-947,wCvzzKcH5zms6CxvW,6,7wykdHrwqnYdyMjJT_9Gt9HFr7v4jo7z2mq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,0,6,these are not going well,NDxDF3jtu4GsxE6Ka,/experiment/tangram_L.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
-948,wCvzzKcH5zms6CxvW,6,7wykdHrwqnYdyMjJT_9Gt9HFr7v4jo7z2mq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,0,6,its like it was on its knees but now its in the process of standing,qFRcN5H2Wh32P5CXo,/experiment/tangram_L.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
-949,wCvzzKcH5zms6CxvW,6,7wykdHrwqnYdyMjJT_9Gt9HFr7v4jo7z2mq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,0,6,and it was praying,qFRcN5H2Wh32P5CXo,/experiment/tangram_L.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
-950,wCvzzKcH5zms6CxvW,6,7wykdHrwqnYdyMjJT_9Gt9HFr7v4jo7z2mq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,0,6,ok,TcSFd2e7jR4nEmwgk,/experiment/tangram_L.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
-951,wCvzzKcH5zms6CxvW,6,7wykdHrwqnYdyMjJT_9Gt9HFr7v4jo7z2mq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,0,6,sorry im not good at describing them,qFRcN5H2Wh32P5CXo,/experiment/tangram_L.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
-952,wCvzzKcH5zms6CxvW,6,7wykdHrwqnYdyMjJT_9Gt9HFr7v4jo7z2mq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,0,6,can you describe the bottom ot it,NDxDF3jtu4GsxE6Ka,/experiment/tangram_L.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
-953,wCvzzKcH5zms6CxvW,6,7wykdHrwqnYdyMjJT_9Gt9HFr7v4jo7z2mq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,0,6,I can see two similiar,NDxDF3jtu4GsxE6Ka,/experiment/tangram_L.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
-954,wCvzzKcH5zms6CxvW,6,7wykdHrwqnYdyMjJT_9Gt9HFr7v4jo7z2mq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,0,6,its like the knees are pointing right,qFRcN5H2Wh32P5CXo,/experiment/tangram_L.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
-955,wCvzzKcH5zms6CxvW,6,7wykdHrwqnYdyMjJT_9Gt9HFr7v4jo7z2mq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,0,6,but,qFRcN5H2Wh32P5CXo,/experiment/tangram_L.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
-956,wCvzzKcH5zms6CxvW,6,7wykdHrwqnYdyMjJT_9Gt9HFr7v4jo7z2mq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,0,6,the knees are not on the floor,qFRcN5H2Wh32P5CXo,/experiment/tangram_L.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
-957,wCvzzKcH5zms6CxvW,6,7wykdHrwqnYdyMjJT_9Gt9HFr7v4jo7z2mq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,0,6,got it,TcSFd2e7jR4nEmwgk,/experiment/tangram_L.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
-958,iMzaSSNB8ng8AChnP,7,XNnLPqvDPc6cnseup_5KuKpAcrXgZnGrs8z,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,7,0,7,?,NDxDF3jtu4GsxE6Ka,/experiment/tangram_I.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
-959,iMzaSSNB8ng8AChnP,7,XNnLPqvDPc6cnseup_5KuKpAcrXgZnGrs8z,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,7,0,7,it looks like a person throwing a kick,qFRcN5H2Wh32P5CXo,/experiment/tangram_I.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
-960,iMzaSSNB8ng8AChnP,7,XNnLPqvDPc6cnseup_5KuKpAcrXgZnGrs8z,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,7,0,7,or doing karate,qFRcN5H2Wh32P5CXo,/experiment/tangram_I.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
-961,iMzaSSNB8ng8AChnP,7,XNnLPqvDPc6cnseup_5KuKpAcrXgZnGrs8z,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,7,0,7,about to kick?,TcSFd2e7jR4nEmwgk,/experiment/tangram_I.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
-962,iMzaSSNB8ng8AChnP,7,XNnLPqvDPc6cnseup_5KuKpAcrXgZnGrs8z,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,7,0,7,"can you descrbie the ""feet""",NDxDF3jtu4GsxE6Ka,/experiment/tangram_I.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
-963,iMzaSSNB8ng8AChnP,7,XNnLPqvDPc6cnseup_5KuKpAcrXgZnGrs8z,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,7,0,7,it looks like it has spikes on its back,qFRcN5H2Wh32P5CXo,/experiment/tangram_I.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
-964,iMzaSSNB8ng8AChnP,7,XNnLPqvDPc6cnseup_5KuKpAcrXgZnGrs8z,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,7,0,7,and the feet (kicking) to the right,qFRcN5H2Wh32P5CXo,/experiment/tangram_I.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
-965,zLbeF39Gr4mzJRyfK,8,wyzuJcsWPXx5LxK5A_mCrCbQmgYCLTPrZSe,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,8,0,8,on the left is square,qFRcN5H2Wh32P5CXo,/experiment/tangram_J.png,speaker,0,qFRcN5H2Wh32P5CXo,FALSE
-966,zLbeF39Gr4mzJRyfK,8,wyzuJcsWPXx5LxK5A_mCrCbQmgYCLTPrZSe,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,8,0,8,and like someone pointing to the right,qFRcN5H2Wh32P5CXo,/experiment/tangram_J.png,speaker,0,qFRcN5H2Wh32P5CXo,FALSE
-967,zLbeF39Gr4mzJRyfK,8,wyzuJcsWPXx5LxK5A_mCrCbQmgYCLTPrZSe,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,8,0,8,on the top?,TcSFd2e7jR4nEmwgk,/experiment/tangram_J.png,listener,0,qFRcN5H2Wh32P5CXo,FALSE
-968,zLbeF39Gr4mzJRyfK,8,wyzuJcsWPXx5LxK5A_mCrCbQmgYCLTPrZSe,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,8,0,8,?,NDxDF3jtu4GsxE6Ka,/experiment/tangram_J.png,listener,0,qFRcN5H2Wh32P5CXo,FALSE
-969,zLbeF39Gr4mzJRyfK,8,wyzuJcsWPXx5LxK5A_mCrCbQmgYCLTPrZSe,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,8,0,8,can you share a description,NDxDF3jtu4GsxE6Ka,/experiment/tangram_J.png,listener,0,qFRcN5H2Wh32P5CXo,FALSE
-970,zLbeF39Gr4mzJRyfK,8,wyzuJcsWPXx5LxK5A_mCrCbQmgYCLTPrZSe,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,8,0,8,hello,NDxDF3jtu4GsxE6Ka,/experiment/tangram_J.png,listener,0,qFRcN5H2Wh32P5CXo,FALSE
-971,SH84MSvGK5rD9nDox,9,uzHC9whuv4Qa3xR8L_s9Nymy7fezvdXDcBy,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,9,0,9,NA,NA,NA,NA,NA,NA,NA
-972,PPwo6DbDW9wa8dK9g,10,YLprYPRpfKx7KBfi4_TDWY32arefLaNAKyq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,10,0,10,NA,NA,NA,NA,NA,NA,NA
-973,9JpofpKfN4ETwEkrP,11,5jf2ZzjnuoSYaXxEz_wi5ZKd5BkQiXigCrJ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,11,0,11,NA,NA,NA,NA,NA,NA,NA
-974,X7G9rXaMi2CCRvhXF,12,xwqMcsaNsg2Npy6sh_wz4gf7LDm2egoNau9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,0,1,12,NA,NA,NA,NA,NA,NA,NA
-975,3PstpeYjZ7uXXyPer,13,Yvtvw4v4TmgyXGgaS_bEv8oD73cLuz7oLL3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,1,13,NA,NA,NA,NA,NA,NA,NA
-976,k8nkEbZJpbAKbnN9z,14,hSkNm2AA28QyK5J9j_aLAkHxp8oQmB3wRen,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,1,14,NA,NA,NA,NA,NA,NA,NA
-977,mknwLZpPuWHAEG7Tp,15,86HEkrYacrifnJzpn_NhF9LoDf9Be2s7Lbk,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,1,15,NA,NA,NA,NA,NA,NA,NA
-978,aTiuYBdeeEbRfzTRW,16,NBjBr5iNZJX9Niq2F_iGGiEi8SNMECxD6Dg,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,4,1,16,NA,NA,NA,NA,NA,NA,NA
-979,hDLFnpqMc8HXPuu6K,17,rYne65uisPqKNniFk_gwDe36cdEWJuPbSWK,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,1,17,NA,NA,NA,NA,NA,NA,NA
-980,Sz3wL8hJgaTH9Xzbn,18,oT35qAyPNk2W3mDnu_8S8nwDRPuEx9XQxPP,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,1,18,NA,NA,NA,NA,NA,NA,NA
-981,c2Hf354cNqyXo5rdw,19,28PqTTgy4EuYaCN5a_KhiKDJ4Tbnp4RQSdi,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,7,1,19,NA,NA,NA,NA,NA,NA,NA
-982,uqZB5ZJvxv4Mg5asj,20,vpk7krcWrDtJLF2KS_HzfCa55F4k3jaBcMm,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,8,1,20,NA,NA,NA,NA,NA,NA,NA
-983,A5ruiiAhubm6PjTj7,21,ex3eCaD2v2sfihe3X_eGsHE7fQBBMspjtJK,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,9,1,21,NA,NA,NA,NA,NA,NA,NA
-984,KcTNkSocDZ9gpr3K5,22,42Rj8r8zZvDm7vbFi_SRPRoMaRgsGfg25Jd,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,10,1,22,NA,NA,NA,NA,NA,NA,NA
-985,hPpPB7436YtNmtXEj,23,36DvW8nHHuivsSujt_cfoh9Mr8mGF9GsA46,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,11,1,23,NA,NA,NA,NA,NA,NA,NA
-986,ebeE29T62pPHMyTbn,24,N7xDzninSj8avq7de_45SNQEQBeY6GzzkQB,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,0,2,24,NA,NA,NA,NA,NA,NA,NA
-987,sRGMCmQvsSJHcATbN,25,L7Ffx4RoyceLpmj9e_fYh3eF66Gyr4j6aHa,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,2,25,NA,NA,NA,NA,NA,NA,NA
-988,h95AEzfpEkyy42P89,26,5w9EixPotCi4FdFpe_5rhiB65G9gggLnCWq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,2,26,NA,NA,NA,NA,NA,NA,NA
-989,e7fodBKhP7cnSgX8D,27,RwHqPtKwBy8bXe7es_9hZ4QKFDqQkMD5j9e,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,2,27,NA,NA,NA,NA,NA,NA,NA
-990,7HYcMF6WQf9b3xeqL,28,X88u8b8c64wSSv4DR_xfhPnopQwJYn9ykr2,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,4,2,28,NA,NA,NA,NA,NA,NA,NA
-991,WcmE9yXSa3zY2uQSK,29,zv422PmWxK7uhdPDr_3azfgK5JB8MnEEicp,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,2,29,NA,NA,NA,NA,NA,NA,NA
-992,mMwKkHfamhNP6hXwY,30,k8dkS9m7doATtzb7d_n446iuGSDzfTi3z7B,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,2,30,NA,NA,NA,NA,NA,NA,NA
-993,XntTtbDN8cNRZhaQ4,31,TSnuFpM8RtvvdgM5d_DtvqRsP4ZoLrxzKPg,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,7,2,31,NA,NA,NA,NA,NA,NA,NA
-994,Tk5kfvMjux45aKGCP,32,G32Li23E4vHd5sqYm_KAKMXnwmBvkrmj2eX,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,8,2,32,NA,NA,NA,NA,NA,NA,NA
-995,92jZxcRgP2oy3ethq,33,JnC75r2X9jMt8dbdo_AoMJXXAgYqS2H5Avy,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,9,2,33,NA,NA,NA,NA,NA,NA,NA
-996,7DndiA6ZynTXNyFYd,34,cJRD5w8jJoFGyJp9Z_qyLPBS2eRW96TMrvj,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,10,2,34,NA,NA,NA,NA,NA,NA,NA
-997,tKbKNfzxd5mqJbePv,35,CM46zxWF3h7bTfETS_LTAec5Tme6AJPFC2D,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,11,2,35,NA,NA,NA,NA,NA,NA,NA
-998,JcmHSdZD9c7FjxKSs,36,GWCgq4hq6td6yJ6v6_o35fJJ4uFuTzvcaNb,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,0,3,36,NA,NA,NA,NA,NA,NA,NA
-999,8tNuLmyktNrD2N2p7,37,c9so5WeaYPjRtAnpu_paSTstqgHvRYPikcK,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,3,37,NA,NA,NA,NA,NA,NA,NA
-1000,nvduDjobvWta9ti2T,38,BjawF223HxCiLMk5S_cAEYJXgrWokbvCuCS,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,3,38,NA,NA,NA,NA,NA,NA,NA
-1001,JwZnL5ej6PPyNe23i,39,6S9ofhwuTkJAzjmS6_2zJKhTfGAX2Bruufm,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,3,39,NA,NA,NA,NA,NA,NA,NA
-1002,3RK8FQ64GeBx3qswo,40,CwcyrjZXSTtedxW5G_XL5qXHknMiHLymH58,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,4,3,40,NA,NA,NA,NA,NA,NA,NA
-1003,ymgz39PpKxXrmRknt,41,8GibyGfgj96qrcxsD_Zto4gGTYGntX93Nh7,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,3,41,NA,NA,NA,NA,NA,NA,NA
-1004,TYpGq68T2PNLhRQDR,42,ajpG57WhT8KxaGNyB_pFXHDksEh3LkAieDq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,3,42,NA,NA,NA,NA,NA,NA,NA
-1005,7Ta9mkXYRYMG5cmB6,43,JpS9jaNZWHKasPKxD_ZQtfMKsHDFqGpZFjL,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,7,3,43,NA,NA,NA,NA,NA,NA,NA
-1006,ChzcQa37vwyr3FXM6,44,iosnzSa3Srs6e6L9Q_pWCmSQDjbrgYu2Rti,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,8,3,44,NA,NA,NA,NA,NA,NA,NA
-1007,2BW37HFhgDPBZqywf,45,9s3uoDxkiBogC6Rti_zTwWKk5iqFQNNHM5M,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,9,3,45,NA,NA,NA,NA,NA,NA,NA
-1008,j55TdowYJ8a2kyvtx,46,FkF5rJAoFQW9xPwNK_xdPGunuh7NfZXTb8a,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,10,3,46,NA,NA,NA,NA,NA,NA,NA
-1009,qHQbEMH7Dj3cGk8CS,47,2rR7tpbxgyRDAYWf8_M2aBoXsMkxQ9nPDzT,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,11,3,47,NA,NA,NA,NA,NA,NA,NA
-1010,NCozsXvMiux2EczRa,48,BwmkQujgxur9j5ZWY_QJCngPexxG7ufwk2q,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,0,4,48,NA,NA,NA,NA,NA,NA,NA
-1011,vxjmfkCtmuwWtgv95,49,uQrXGFGQcretvcivs_Qr42fAaXnwqGD7q8M,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,4,49,NA,NA,NA,NA,NA,NA,NA
-1012,BLkK2ssgAufjszuNQ,50,JshbKi9jcRbudoCdM_6bghsEpKgmgt75YK9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,4,50,NA,NA,NA,NA,NA,NA,NA
-1013,YgfbwKjrW8SR7kbgz,51,nbNZw5sRKoeZnYeo9_v9ZqRtSCLogogCx7n,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,4,51,NA,NA,NA,NA,NA,NA,NA
-1014,NSM6ZzwRqdsH8qt89,52,FfeyHZbze8kccyjmT_FLAMHsAFsqwXzdNyJ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,4,4,52,NA,NA,NA,NA,NA,NA,NA
-1015,pabNYbEk78fdFY8Nh,53,wsdZTxsPvRYkb5T8B_e3xFmGvoZw2RkzWSh,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,4,53,NA,NA,NA,NA,NA,NA,NA
-1016,hxwX9HET9PFJKyNWW,54,48xTrGLpsFknx8WMS_Npxgu7XqQofGCCEY5,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,4,54,NA,NA,NA,NA,NA,NA,NA
-1017,3NcEqT4g6eWw83Tbx,55,ZiARk6Kfib5mGtRPh_wk39mbCjtSvCzNzFP,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,7,4,55,NA,NA,NA,NA,NA,NA,NA
-1018,ChZ5PQgA5MvqHzR3G,56,MJ6TobMpRbjSitGkb_3kAQgwBnEYxyyC4ge,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,8,4,56,NA,NA,NA,NA,NA,NA,NA
-1019,6doMh6i36TZQsDg2n,57,RtGK8Q7mQAzCjMaZe_EBAQSnKTGDss7efLu,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,9,4,57,NA,NA,NA,NA,NA,NA,NA
-1020,DjgLeRRo63tWfcQPc,58,6ToGMyNqTv7JhZfQf_viSLC2WJop8N39R3r,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,10,4,58,NA,NA,NA,NA,NA,NA,NA
-1021,4BPHT3QmqE3mXBEyL,59,Jfzf74cuXbF5LdPWR_3iFuMSPL5J4oLXTZs,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,11,4,59,NA,NA,NA,NA,NA,NA,NA
-1022,fTyR8twCp92PjgD6u,60,9XwpfK3SnMhxgh4eN_cTXgWwL4BwtSmLwwa,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,0,5,60,NA,NA,NA,NA,NA,NA,NA
-1023,WabDgYEiMtbfFu8po,61,r9SrsJYqLCpXBiY7h_iBPWbCD7vNn23YLCv,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,5,61,NA,NA,NA,NA,NA,NA,NA
-1024,jbMRiYPduTvEEiTWi,62,vh2Xb52qAEwGpYWj2_StGHNiZspbWZjJRAf,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,5,62,NA,NA,NA,NA,NA,NA,NA
-1025,AKZEoTmDxrT8Hjf8A,63,qf2AgW58Bt6ec5Qjg_D3GopiftLvPtAzkAy,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,5,63,NA,NA,NA,NA,NA,NA,NA
-1026,dNazReX3zF6mgQYGv,64,QQrBKC9SW9jbLmRtk_P7RtiWaBHS8D6LCyD,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,4,5,64,NA,NA,NA,NA,NA,NA,NA
-1027,MJD58YRcsS3G3NxtW,65,ZqrgKEKCz7m5hGnBy_gZZ3uwCAeCEbWuRjd,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,5,65,NA,NA,NA,NA,NA,NA,NA
-1028,rGi4QXt4EgjDJe2Tj,66,suEgKvY2v9yaThfBW_u3p2BKfSpRMMqmz2q,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,5,66,NA,NA,NA,NA,NA,NA,NA
-1029,eQvYcTeYJFkpQAosw,67,3tYskLoEaXRaKfFQQ_rYnxfTYt7cQriEEft,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,7,5,67,NA,NA,NA,NA,NA,NA,NA
-1030,eEXNNNAGRCLANrFQX,68,QkKrhXR4CAeGxTfAx_DNxTTYEGRdq8BNWYX,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,8,5,68,NA,NA,NA,NA,NA,NA,NA
-1031,HkkGiXEBFLsCh25BA,69,xHBzCz8dSiAkbGBsc_X6FzNnR9Rb48f7A7b,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,9,5,69,NA,NA,NA,NA,NA,NA,NA
-1032,uscvdjrmFrXLebCXo,70,WFgHBwvMF8CyyZ884_dQNdbXNCYe4WkRqH7,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,10,5,70,NA,NA,NA,NA,NA,NA,NA
-1033,duwht7WccchkMz8aj,71,SGvf28u3cjykipxKo_pAw3RzXAQRz4gqjy9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,11,5,71,NA,NA,NA,NA,NA,NA,NA
-1034,JJjiSjmwS3GRqQRNE,0,gB4ojCWLZdxDZ7S73_ESv86SgZSiCk69B89,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,0,0,c'è un quadrato sopra; il lato sinistro è dritto fino in fondo; a destra è frastagliato,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
-1035,JJjiSjmwS3GRqQRNE,0,gB4ojCWLZdxDZ7S73_ESv86SgZSiCk69B89,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,0,0,in English please!,XfPenstnRyoSskufp,/experiment/tangram_J.png,listener,0,whYPsCAALJKsn3n2g,TRUE
-1036,JJjiSjmwS3GRqQRNE,0,gB4ojCWLZdxDZ7S73_ESv86SgZSiCk69B89,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,0,0,there is a square on the top,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
-1037,JJjiSjmwS3GRqQRNE,0,gB4ojCWLZdxDZ7S73_ESv86SgZSiCk69B89,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,0,0,the left side is straight,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
-1038,JJjiSjmwS3GRqQRNE,0,gB4ojCWLZdxDZ7S73_ESv86SgZSiCk69B89,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,0,0,till the end,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
-1039,x2fBi3BkXd9uZAC74,1,5WHkANn2PRdGbKher_r8KwZB32GY8WFbyPy,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,0,1,there is a square on the top,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1040,x2fBi3BkXd9uZAC74,1,5WHkANn2PRdGbKher_r8KwZB32GY8WFbyPy,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,0,1,the right side is straight till the end,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1041,MHAyurNjoLYK5FpbM,2,CYvrSBwDZfBFyhCxz_aQgHGZPFLrnyjNkQP,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,0,2,seems like a person is lying on the floor,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1042,MHAyurNjoLYK5FpbM,2,CYvrSBwDZfBFyhCxz_aQgHGZPFLrnyjNkQP,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,0,2,there is a tringle on the bottom left,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1043,MHAyurNjoLYK5FpbM,2,CYvrSBwDZfBFyhCxz_aQgHGZPFLrnyjNkQP,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,0,2,bottom right sorry,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1044,MHAyurNjoLYK5FpbM,2,CYvrSBwDZfBFyhCxz_aQgHGZPFLrnyjNkQP,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,0,2,with his hands up in the air?,XfPenstnRyoSskufp,/experiment/tangram_G.png,listener,1,whYPsCAALJKsn3n2g,TRUE
-1045,MHAyurNjoLYK5FpbM,2,CYvrSBwDZfBFyhCxz_aQgHGZPFLrnyjNkQP,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,0,2,no,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1046,MHAyurNjoLYK5FpbM,2,CYvrSBwDZfBFyhCxz_aQgHGZPFLrnyjNkQP,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,0,2,like he's on one side,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1047,6keqyRqaB2FyrAgTQ,3,ys6T5BCwWJFx3LLNL_N9M2NqhgaXeLN97Cg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,0,3,he's sitting; but not on the floor this time,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1048,6keqyRqaB2FyrAgTQ,3,ys6T5BCwWJFx3LLNL_N9M2NqhgaXeLN97Cg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,0,3,knees bend and pointing to the right?,XfPenstnRyoSskufp,/experiment/tangram_H.png,listener,1,whYPsCAALJKsn3n2g,TRUE
-1049,6keqyRqaB2FyrAgTQ,3,ys6T5BCwWJFx3LLNL_N9M2NqhgaXeLN97Cg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,0,3,no; it's one block,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1050,pWrqvRMeqXEQKNAYC,4,fTQcp5YWzhCSFDfze_HqHvZBwgoDPbjJMi9,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,0,4,he's on one knee,whYPsCAALJKsn3n2g,/experiment/tangram_B.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1051,pWrqvRMeqXEQKNAYC,4,fTQcp5YWzhCSFDfze_HqHvZBwgoDPbjJMi9,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,0,4,with arms in the air,whYPsCAALJKsn3n2g,/experiment/tangram_B.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1052,MdnpdbXTEfHJXB2RX,5,8XfPZLrKAjzjTkZDg_8FWD76SKtZfcvL6HS,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,0,5,he's standing with one leg up in the front,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1053,MdnpdbXTEfHJXB2RX,5,8XfPZLrKAjzjTkZDg_8FWD76SKtZfcvL6HS,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,0,5,the square is pending on the right,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1054,DteHmEiP6ZS6PZgyq,6,qnFYcWFMmvZNbPGCn_Cf5kSNtZMq8ZCdfuu,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,0,6,he's on the floor with legs bent,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1055,DteHmEiP6ZS6PZgyq,6,qnFYcWFMmvZNbPGCn_Cf5kSNtZMq8ZCdfuu,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,0,6,legs point to the left?,XfPenstnRyoSskufp,/experiment/tangram_F.png,listener,2,whYPsCAALJKsn3n2g,TRUE
-1056,DteHmEiP6ZS6PZgyq,6,qnFYcWFMmvZNbPGCn_Cf5kSNtZMq8ZCdfuu,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,0,6,like he's on the floor with his back on the wall,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1057,DteHmEiP6ZS6PZgyq,6,qnFYcWFMmvZNbPGCn_Cf5kSNtZMq8ZCdfuu,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,0,6,yes,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1058,H2a5hGnBeNDS8XZyH,7,huKsgrLd9GCpECz7v_jSvEmBDknKxa6tQ6W,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,0,7,he's pointig with his body on the left,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1059,H2a5hGnBeNDS8XZyH,7,huKsgrLd9GCpECz7v_jSvEmBDknKxa6tQ6W,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,0,7,with his arms in the air,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1060,buSMgSHWaZ5L4kNR4,8,zPzFxcaoWYuAKrus9_qN89wziJZh4ksN5jH,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,0,8,he's standing with a leg up on the back,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1061,buSMgSHWaZ5L4kNR4,8,zPzFxcaoWYuAKrus9_qN89wziJZh4ksN5jH,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,0,8,the leg is pointing to the right,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1062,erXherG8yjAM7CMHu,9,FxGRausiQX3voC7uE_wQTypdxjrjppkKpDA,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,0,9,he's on his knees like he's praying,whYPsCAALJKsn3n2g,/experiment/tangram_K.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1063,erXherG8yjAM7CMHu,9,FxGRausiQX3voC7uE_wQTypdxjrjppkKpDA,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,0,9,his hands are on the right,whYPsCAALJKsn3n2g,/experiment/tangram_K.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1064,gsyDcBMCNgB6bbzpJ,10,jxp8qzeDWLTzitEgC_hEHNSJJhKwJBhCboZ,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,0,10,there's a triangle pointing left,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1065,gsyDcBMCNgB6bbzpJ,10,jxp8qzeDWLTzitEgC_hEHNSJJhKwJBhCboZ,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,0,10,then there's a square,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1066,gsyDcBMCNgB6bbzpJ,10,jxp8qzeDWLTzitEgC_hEHNSJJhKwJBhCboZ,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,0,10,and two tringles on the top,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1067,QeCvuiY3SGLzEisSq,11,r9ErJc77QHShWewxp_ZNcLHzrENpQpBsF7v,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,0,11,his legs are bent on the right,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1068,QeCvuiY3SGLzEisSq,11,r9ErJc77QHShWewxp_ZNcLHzrENpQpBsF7v,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,0,11,his arms are in the front; to the right,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1069,QeCvuiY3SGLzEisSq,11,r9ErJc77QHShWewxp_ZNcLHzrENpQpBsF7v,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,0,11,not bent alla the way; just half way,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1070,aC2uWMWpEpfMT8n2a,12,vmjr7NrMWRYBp5XyJ_dmogddw78MDbMGQXe,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,1,12,there a square on the top,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1071,aC2uWMWpEpfMT8n2a,12,vmjr7NrMWRYBp5XyJ_dmogddw78MDbMGQXe,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,1,12,the left side is straight till the end,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1072,yZKBvxYBziLT47nXv,13,zEKQqtouaT2jibvE7_X8hTx9z273rDkuojx,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,1,13,again the praying position,whYPsCAALJKsn3n2g,/experiment/tangram_K.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1073,4vFZ6hveTjiqWrvkW,14,RPGZRHFaogXhodxXW_mFfZdf8PSd7nK5xdr,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,1,14,he's sitting but not on the floor,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1074,AK2qkKyAstMoMdA9d,15,5FnkLsArTdRjAtZSF_ibvk3e4NFv5aKMnzJ,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,1,15,like he's lying on one side,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1075,AkMHmyWoqK5YmbDTv,16,BK8fFd6PnDym3tQgD_konAHwrrH24dRjfKT,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,1,16,his legs are bend and his arms are in the front on the right,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1076,B4uQh7qqWjozuAK9W,17,LkGMmfFtYassju6c8_AJyPpF5KoXZemjjWa,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,1,17,his leg is up on the right,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1077,B4uQh7qqWjozuAK9W,17,LkGMmfFtYassju6c8_AJyPpF5KoXZemjjWa,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,1,17,his body is bend to the left,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1078,B4uQh7qqWjozuAK9W,17,LkGMmfFtYassju6c8_AJyPpF5KoXZemjjWa,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,1,17,his arms in front of him to the left,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1079,uS79hbZWLMnjgDjHG,18,AhKpoJYoA9RgLMAYq_2j9Km3FfMTHsaT7e9,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,1,18,he's on one knee with arms in the air,whYPsCAALJKsn3n2g,/experiment/tangram_B.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1080,y36F8DQpeTcbD74Jn,19,Hun2ngCgTL4bKtoR5_rzaYaqAzoDhzqrAzp,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,1,19,triangle pointing left,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1081,y36F8DQpeTcbD74Jn,19,Hun2ngCgTL4bKtoR5_rzaYaqAzoDhzqrAzp,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,1,19,then square,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1082,y36F8DQpeTcbD74Jn,19,Hun2ngCgTL4bKtoR5_rzaYaqAzoDhzqrAzp,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,1,19,and two tringles,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1083,DXMn3mcNosznctQuZ,20,9NdDPhewCQqibz6yy_ceiQxLPgCawDQF9zZ,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,1,20,his body points left,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1084,DXMn3mcNosznctQuZ,20,9NdDPhewCQqibz6yy_ceiQxLPgCawDQF9zZ,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,1,20,arms in the air,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1085,HekWgmat6gGxx6cAA,21,yPDg9QdYtznXCfNuW_QS9YhPyyx9rxhgZbQ,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,1,21,one leg is up on the left,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1086,HekWgmat6gGxx6cAA,21,yPDg9QdYtznXCfNuW_QS9YhPyyx9rxhgZbQ,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,1,21,there's a square hanging on the right,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1087,2fb88aBf4Knqs2euz,22,WiHA2hifSwXiR5PRP_g24vjavByy8eAhRC4,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,1,22,there's a square on the top,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1088,2fb88aBf4Knqs2euz,22,WiHA2hifSwXiR5PRP_g24vjavByy8eAhRC4,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,1,22,then his arms are in front of him on the left,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1089,2fb88aBf4Knqs2euz,22,WiHA2hifSwXiR5PRP_g24vjavByy8eAhRC4,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,1,22,on the right is pretty staright till the end,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1090,bLacGQrSCvYdx2DaW,23,Hvc8GvcxJk45y8xwv_tQREX3mp8zBvZKW8w,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,1,23,he's sitting on the floor,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1091,bLacGQrSCvYdx2DaW,23,Hvc8GvcxJk45y8xwv_tQREX3mp8zBvZKW8w,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,1,23,legs bend,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1092,iEhEsJLwJW4n7rqqq,24,pzM7oybPDGQvgga2d_LQj7jWQS2kupLSSdd,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,2,24,sitting position; not on the floor,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1093,iEhEsJLwJW4n7rqqq,24,pzM7oybPDGQvgga2d_LQj7jWQS2kupLSSdd,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,2,24,we can't see all legs,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1094,6vfZ2bzXYNKudhghE,25,Cq4D9LNo22b4g557P_Fhx3j4EH44vuWffJW,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,2,25,again the leg up on the left,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1095,6vfZ2bzXYNKudhghE,25,Cq4D9LNo22b4g557P_Fhx3j4EH44vuWffJW,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,2,25,square hanging on the right,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1096,EfmMxEbHWLDPFWqyu,26,9eStjJC2oEcDAc2mZ_zq3A53AnkDcXWCDqM,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,2,26,his sitting not on the floor,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
-1097,EfmMxEbHWLDPFWqyu,26,9eStjJC2oEcDAc2mZ_zq3A53AnkDcXWCDqM,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,2,26,we can see all legs,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
-1098,EfmMxEbHWLDPFWqyu,26,9eStjJC2oEcDAc2mZ_zq3A53AnkDcXWCDqM,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,2,26,legs bend on the right,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
-1099,EfmMxEbHWLDPFWqyu,26,9eStjJC2oEcDAc2mZ_zq3A53AnkDcXWCDqM,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,2,26,arms in the front,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
-1100,qrwtD6ifAzC2iGC34,27,h7kr4pxXKFEvEBJ9u_XWqAJactH2wQT2t5Q,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,2,27,praying position,whYPsCAALJKsn3n2g,/experiment/tangram_K.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1101,5N5Eh5H64PBpf3yoT,28,3BWxGGjxfCg8pkB66_83ACEptcwADiCZma3,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,2,28,lying on the side,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1102,bAAYpNaznwqAkSLah,29,kTYsewoBMNrSHWvKs_wvMvbtQLqtYiLuzuu,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,2,29,leg up to the right,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1103,bAAYpNaznwqAkSLah,29,kTYsewoBMNrSHWvKs_wvMvbtQLqtYiLuzuu,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,2,29,his body on the left,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1104,pohpJTSTaqtZ8wbzo,30,fE7NuuFzaEF9wEi7f_NPjoNiYdmtCcTw3h8,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,2,30,square on top,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1105,pohpJTSTaqtZ8wbzo,30,fE7NuuFzaEF9wEi7f_NPjoNiYdmtCcTw3h8,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,2,30,arms on the left,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1106,pohpJTSTaqtZ8wbzo,30,fE7NuuFzaEF9wEi7f_NPjoNiYdmtCcTw3h8,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,2,30,right pretty straight till the end,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1107,CKZPNreYXJbAmZqFR,31,bervA9MKp2b6HXzqR_d2y5wtor64z3YQYmR,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,2,31,on the knees,whYPsCAALJKsn3n2g,/experiment/tangram_B.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1108,CKZPNreYXJbAmZqFR,31,bervA9MKp2b6HXzqR_d2y5wtor64z3YQYmR,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,2,31,arms in the air,whYPsCAALJKsn3n2g,/experiment/tangram_B.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1109,CKZPNreYXJbAmZqFR,31,bervA9MKp2b6HXzqR_d2y5wtor64z3YQYmR,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,2,31,on one knee,whYPsCAALJKsn3n2g,/experiment/tangram_B.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1110,hQfjZjh66nnfaZBWS,32,jF9EzEETtMryycfau_rGgLTGuXDFdndyH3a,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,2,32,on the floor,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1111,hQfjZjh66nnfaZBWS,32,jF9EzEETtMryycfau_rGgLTGuXDFdndyH3a,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,2,32,on the wall,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1112,hQfjZjh66nnfaZBWS,32,jF9EzEETtMryycfau_rGgLTGuXDFdndyH3a,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,2,32,with his back,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1113,h5hYhuWfs245jsGsr,33,GWgdNzpW2fSyQkZ4E_8P4MLTHjeeYNGtrgB,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,2,33,square on top,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1114,h5hYhuWfs245jsGsr,33,GWgdNzpW2fSyQkZ4E_8P4MLTHjeeYNGtrgB,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,2,33,left side straight till the end,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1115,TY65x6hW539kKXakL,34,Dz6X68oteCWKNdcym_4x2uEseer229rRZoa,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,2,34,triangle point left,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1116,TY65x6hW539kKXakL,34,Dz6X68oteCWKNdcym_4x2uEseer229rRZoa,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,2,34,square,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1117,TY65x6hW539kKXakL,34,Dz6X68oteCWKNdcym_4x2uEseer229rRZoa,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,2,34,then 2 tringles,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1118,haWcbdfcjsv3gb3EK,35,YMCvdT2SqqeKpMfkd_JMauMcJ9poa2XNWoa,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,2,35,his body bend to the left,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1119,haWcbdfcjsv3gb3EK,35,YMCvdT2SqqeKpMfkd_JMauMcJ9poa2XNWoa,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,2,35,arms in the air,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1120,aBwL9QokXES7CnyQz,36,KwmvC9yPMPJZfRgoX_XAQ8yrrrfDqB847DC,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,3,36,legs bend to the right,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1121,aBwL9QokXES7CnyQz,36,KwmvC9yPMPJZfRgoX_XAQ8yrrrfDqB847DC,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,3,36,arms in front,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1122,aBwL9QokXES7CnyQz,36,KwmvC9yPMPJZfRgoX_XAQ8yrrrfDqB847DC,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,3,36,on the right,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1123,aBwL9QokXES7CnyQz,36,KwmvC9yPMPJZfRgoX_XAQ8yrrrfDqB847DC,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,3,36,we can see all legs,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1124,qi93SECLoC3H6WuLz,37,Q8EoEXRQvHQcnDcC3_MGcSSHjAgutkvXJh7,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,3,37,triangle point left,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1125,qi93SECLoC3H6WuLz,37,Q8EoEXRQvHQcnDcC3_MGcSSHjAgutkvXJh7,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,3,37,square,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1126,qi93SECLoC3H6WuLz,37,Q8EoEXRQvHQcnDcC3_MGcSSHjAgutkvXJh7,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,3,37,2 triangles,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1127,qi93SECLoC3H6WuLz,37,Q8EoEXRQvHQcnDcC3_MGcSSHjAgutkvXJh7,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,3,37,on top,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1128,AjNvurjSApS6QjbY5,38,ZXz24qX8CKbaAKuwy_3bCEiY4yzonA7Rwc4,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,3,38,on one knee; arms up,whYPsCAALJKsn3n2g,/experiment/tangram_B.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1129,c2KhWdJ9tF4BXCwvG,39,8vAWMXwHhbhAnpZba_yLDhWnnRgdiYy2mP5,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,3,39,lying on one side,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1130,c2KhWdJ9tF4BXCwvG,39,8vAWMXwHhbhAnpZba_yLDhWnnRgdiYy2mP5,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,3,39,arm on the floor to the right,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1131,SmLwb3yawdNZrRp5w,40,BFui5NDqcvqiAT9G6_jmZdZX3fpDTup9ZRu,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,3,40,on the floor,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1132,SmLwb3yawdNZrRp5w,40,BFui5NDqcvqiAT9G6_jmZdZX3fpDTup9ZRu,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,3,40,back to the wall,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1133,GzPiK4HFxvtA43j4Z,41,8TuTTT3itwLM2qCSX_A6Custu9aLnmBctrF,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,3,41,legs bend,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
-1134,GzPiK4HFxvtA43j4Z,41,8TuTTT3itwLM2qCSX_A6Custu9aLnmBctrF,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,3,41,we can't see them all,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
-1135,GzPiK4HFxvtA43j4Z,41,8TuTTT3itwLM2qCSX_A6Custu9aLnmBctrF,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,3,41,legs point right,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
-1136,r6vGZDXKoedQvxZam,42,gP6LE3AhtpzsuKGPJ_sQPDXFxi7nSnsNyyH,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,3,42,leg up to the left,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1137,r6vGZDXKoedQvxZam,42,gP6LE3AhtpzsuKGPJ_sQPDXFxi7nSnsNyyH,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,3,42,right sorry,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1138,r6vGZDXKoedQvxZam,42,gP6LE3AhtpzsuKGPJ_sQPDXFxi7nSnsNyyH,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,3,42,body bend to the left,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1139,r6vGZDXKoedQvxZam,42,gP6LE3AhtpzsuKGPJ_sQPDXFxi7nSnsNyyH,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,3,42,arms in front of him to the left,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1140,FBwrnZGuNHrfFfwFm,43,G2794gcgQ7Q2ERWeY_wgvxaL3LwA8nNZCMd,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,3,43,praying position,whYPsCAALJKsn3n2g,/experiment/tangram_K.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1141,qinmjyYNdRGjtDiWv,44,dKsZhYDu29pzyMYtg_YDhEjY4onw6fJNzte,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,3,44,square on top,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1142,qinmjyYNdRGjtDiWv,44,dKsZhYDu29pzyMYtg_YDhEjY4onw6fJNzte,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,3,44,right side pretty all straight,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1143,qinmjyYNdRGjtDiWv,44,dKsZhYDu29pzyMYtg_YDhEjY4onw6fJNzte,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,3,44,til the end,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1144,bGqaweFW6sY89JaoN,45,EuC4vP3rg7EX8RBd7_SRFBTSbaiiPyWFywS,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,3,45,left side straight,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1145,bGqaweFW6sY89JaoN,45,EuC4vP3rg7EX8RBd7_SRFBTSbaiiPyWFywS,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,3,45,till the end,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1146,yaKDhruxhwJYRedNn,46,o5fMytDhYFjz9CQjq_D4DA2eoofeZ24YjPc,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,3,46,square hanging on the right,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1147,yaKDhruxhwJYRedNn,46,o5fMytDhYFjz9CQjq_D4DA2eoofeZ24YjPc,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,3,46,leg up to the left,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1148,qRaqgbnMTzsWtJ5HD,47,atzT7ZLdAuRpKZRu4_h3xXhAcLLPvLvHjNd,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,3,47,body on the left,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1149,qRaqgbnMTzsWtJ5HD,47,atzT7ZLdAuRpKZRu4_h3xXhAcLLPvLvHjNd,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,3,47,arms up in the air,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1150,SFqKMzcomF69i5No6,48,mmirA2setBvr7yMoQ_NiSA2guEbZ353TezC,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,4,48,on the floor,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1151,SFqKMzcomF69i5No6,48,mmirA2setBvr7yMoQ_NiSA2guEbZ353TezC,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,4,48,back on the right on the wall,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1152,EMXGWX7m2JtvDMRDs,49,zgy2xZMW6DZf6ksLD_WWhrkfqjQCxmiEu3v,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,4,49,leg up on the right,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1153,EMXGWX7m2JtvDMRDs,49,zgy2xZMW6DZf6ksLD_WWhrkfqjQCxmiEu3v,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,4,49,arms in front to the left,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1154,zraZosvFBoY4cXnuz,50,wmEiyXd2XzJJfa3pn_uEuXbePhdJLjRFfce,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,4,50,left side straight till the end,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1155,26RM7vnd3TxYTKSJF,51,HYsggBfusTJ3hJFzv_L6MWDXNhDQcsBjH7W,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,4,51,triangle point left,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1156,26RM7vnd3TxYTKSJF,51,HYsggBfusTJ3hJFzv_L6MWDXNhDQcsBjH7W,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,4,51,square,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1157,26RM7vnd3TxYTKSJF,51,HYsggBfusTJ3hJFzv_L6MWDXNhDQcsBjH7W,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,4,51,two triangles,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1158,jwgE2nmzm8rQLq7x6,52,6CmYeN9jsGXLs9k54_GFL7m5sSKPpWxeFCS,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,4,52,on one knee,whYPsCAALJKsn3n2g,/experiment/tangram_B.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1159,jwgE2nmzm8rQLq7x6,52,6CmYeN9jsGXLs9k54_GFL7m5sSKPpWxeFCS,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,4,52,arms up in the air,whYPsCAALJKsn3n2g,/experiment/tangram_B.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1160,xuXxiyvFodivxJT6e,53,uhC47psbLaWfk3ymD_McvHBqfR7XkCL7MPP,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,4,53,praying position,whYPsCAALJKsn3n2g,/experiment/tangram_K.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1161,hhwCnFuQcAKBMj5tk,54,3A7xpjbXYBDr4NqX7_WR3DBSqPPqqpxtnAv,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,4,54,lying on one side,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1162,hhwCnFuQcAKBMj5tk,54,3A7xpjbXYBDr4NqX7_WR3DBSqPPqqpxtnAv,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,4,54,arm right on the floor,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1163,BXx6Mq6Q7ZQzAXsMF,55,bhGaCz7kykwtKtnhB_Wuogj5uBFaCJG7yPW,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,4,55,legs bent,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
-1164,BXx6Mq6Q7ZQzAXsMF,55,bhGaCz7kykwtKtnhB_Wuogj5uBFaCJG7yPW,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,4,55,we can't see them all,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
-1165,BXx6Mq6Q7ZQzAXsMF,55,bhGaCz7kykwtKtnhB_Wuogj5uBFaCJG7yPW,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,4,55,nun position,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
-1166,KLFRkDsFqWTCQHjgQ,56,wQPs2f3kBwwHK23gs_QAvyMEuwKgnAK7zsv,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,4,56,left leg up,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1167,KLFRkDsFqWTCQHjgQ,56,wQPs2f3kBwwHK23gs_QAvyMEuwKgnAK7zsv,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,4,56,square hanging on the rigth,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1168,u7QBrA8CMbYJCnSQr,57,z99pFYBBEZ2WR79AB_yHevWFqM98MqbNL8D,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,4,57,i'm tired ahahahah,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1169,u7QBrA8CMbYJCnSQr,57,z99pFYBBEZ2WR79AB_yHevWFqM98MqbNL8D,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,4,57,me too haha,fSMHCA2X7sKM5kb39,/experiment/tangram_D.png,listener,1,whYPsCAALJKsn3n2g,TRUE
-1170,u7QBrA8CMbYJCnSQr,57,z99pFYBBEZ2WR79AB_yHevWFqM98MqbNL8D,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,4,57,right side pretty straight till the end,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1171,u7QBrA8CMbYJCnSQr,57,z99pFYBBEZ2WR79AB_yHevWFqM98MqbNL8D,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,4,57,it's too long,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1172,u7QBrA8CMbYJCnSQr,57,z99pFYBBEZ2WR79AB_yHevWFqM98MqbNL8D,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,4,57,hang on! we are almost there hahaha,XfPenstnRyoSskufp,/experiment/tangram_D.png,listener,1,whYPsCAALJKsn3n2g,TRUE
-1173,u7QBrA8CMbYJCnSQr,57,z99pFYBBEZ2WR79AB_yHevWFqM98MqbNL8D,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,4,57,we're getting better to ahah,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1174,7nZDR5w6v4qL52PoF,58,BjHPWNWnCHzeRz3eu_JXMcx8JQeLQMHnu4G,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,4,58,body on the left,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1175,7nZDR5w6v4qL52PoF,58,BjHPWNWnCHzeRz3eu_JXMcx8JQeLQMHnu4G,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,4,58,arms up in the air,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1176,4oMrxen4i8DHyCi7f,59,xrjvJKBSxzNbmuFfz_rRJiDQGd69D8K3X9h,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,4,59,legs bent,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1177,4oMrxen4i8DHyCi7f,59,xrjvJKBSxzNbmuFfz_rRJiDQGd69D8K3X9h,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,4,59,on the right,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1178,4oMrxen4i8DHyCi7f,59,xrjvJKBSxzNbmuFfz_rRJiDQGd69D8K3X9h,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,4,59,we can see all legs,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1179,4oMrxen4i8DHyCi7f,59,xrjvJKBSxzNbmuFfz_rRJiDQGd69D8K3X9h,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,4,59,arms in front,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1180,4oMrxen4i8DHyCi7f,59,xrjvJKBSxzNbmuFfz_rRJiDQGd69D8K3X9h,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,4,59,on the right,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1181,2YBG9hCsmNcXKwYSb,60,fFvLZ69PXXHBbeh5M_964PfxR3TmREX2qdR,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,5,60,lying on the side,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1182,2YBG9hCsmNcXKwYSb,60,fFvLZ69PXXHBbeh5M_964PfxR3TmREX2qdR,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,5,60,right arm on the floor,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1183,qnvibApXQSLrXtrCR,61,r3xbKTYckXptDMBEn_ykXkq7W6NtDytPKC6,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,5,61,on one knee,whYPsCAALJKsn3n2g,/experiment/tangram_B.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1184,qnvibApXQSLrXtrCR,61,r3xbKTYckXptDMBEn_ykXkq7W6NtDytPKC6,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,5,61,arms in the air,whYPsCAALJKsn3n2g,/experiment/tangram_B.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1185,BiGtK9P5KFKHzy76o,62,zSj4B6bXFoy3iSAN9_agNbegYcRsMzyDXPP,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,5,62,on the floor,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1186,BiGtK9P5KFKHzy76o,62,zSj4B6bXFoy3iSAN9_agNbegYcRsMzyDXPP,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,5,62,back on the right,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1187,BiGtK9P5KFKHzy76o,62,zSj4B6bXFoy3iSAN9_agNbegYcRsMzyDXPP,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,5,62,on the wall,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1188,H2jMfig6SHeX4DmE5,63,7hW9nWhBKe9K9McYg_CAgpCWmGPq6SvcdCM,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,5,63,body on the left,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1189,H2jMfig6SHeX4DmE5,63,7hW9nWhBKe9K9McYg_CAgpCWmGPq6SvcdCM,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,5,63,arms in the air,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1190,H2jMfig6SHeX4DmE5,63,7hW9nWhBKe9K9McYg_CAgpCWmGPq6SvcdCM,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,5,63,i'm dying,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1191,DLxRD6zZLxhTSE5M6,64,g5T25LabqSrfArFGQ_fuJ9WLwNCt8fEaSRL,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,5,64,leg up on the left,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1192,DLxRD6zZLxhTSE5M6,64,g5T25LabqSrfArFGQ_fuJ9WLwNCt8fEaSRL,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,5,64,hang on! XD,XfPenstnRyoSskufp,/experiment/tangram_A.png,listener,1,whYPsCAALJKsn3n2g,TRUE
-1193,DLxRD6zZLxhTSE5M6,64,g5T25LabqSrfArFGQ_fuJ9WLwNCt8fEaSRL,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,5,64,square hanging on the right,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1194,DLxRD6zZLxhTSE5M6,64,g5T25LabqSrfArFGQ_fuJ9WLwNCt8fEaSRL,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,5,64,where are you from?,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1195,DLxRD6zZLxhTSE5M6,64,g5T25LabqSrfArFGQ_fuJ9WLwNCt8fEaSRL,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,5,64,greece,XfPenstnRyoSskufp,/experiment/tangram_A.png,listener,1,whYPsCAALJKsn3n2g,TRUE
-1196,DLxRD6zZLxhTSE5M6,64,g5T25LabqSrfArFGQ_fuJ9WLwNCt8fEaSRL,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,5,64,you?,XfPenstnRyoSskufp,/experiment/tangram_A.png,listener,1,whYPsCAALJKsn3n2g,TRUE
-1197,DLxRD6zZLxhTSE5M6,64,g5T25LabqSrfArFGQ_fuJ9WLwNCt8fEaSRL,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,5,64,Poland,fSMHCA2X7sKM5kb39,/experiment/tangram_A.png,listener,1,whYPsCAALJKsn3n2g,TRUE
-1198,DLxRD6zZLxhTSE5M6,64,g5T25LabqSrfArFGQ_fuJ9WLwNCt8fEaSRL,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,5,64,italy,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1199,DcXwsnq5ZxcStKdHi,65,B5MTKDEMohMJNchRa_qjzpE8Cj5nkhx46qg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,5,65,Nice!,XfPenstnRyoSskufp,/experiment/tangram_I.png,listener,1,whYPsCAALJKsn3n2g,TRUE
-1200,DcXwsnq5ZxcStKdHi,65,B5MTKDEMohMJNchRa_qjzpE8Cj5nkhx46qg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,5,65,leg up on the right,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1201,DcXwsnq5ZxcStKdHi,65,B5MTKDEMohMJNchRa_qjzpE8Cj5nkhx46qg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,5,65,arms on the front to the left,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1202,DcXwsnq5ZxcStKdHi,65,B5MTKDEMohMJNchRa_qjzpE8Cj5nkhx46qg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,5,65,nice paly with you guys,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1203,DcXwsnq5ZxcStKdHi,65,B5MTKDEMohMJNchRa_qjzpE8Cj5nkhx46qg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,5,65,you as well!,XfPenstnRyoSskufp,/experiment/tangram_I.png,listener,1,whYPsCAALJKsn3n2g,TRUE
-1204,DcXwsnq5ZxcStKdHi,65,B5MTKDEMohMJNchRa_qjzpE8Cj5nkhx46qg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,5,65,good job!,XfPenstnRyoSskufp,/experiment/tangram_I.png,listener,1,whYPsCAALJKsn3n2g,TRUE
-1205,DcXwsnq5ZxcStKdHi,65,B5MTKDEMohMJNchRa_qjzpE8Cj5nkhx46qg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,5,65,thanks,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1206,DcXwsnq5ZxcStKdHi,65,B5MTKDEMohMJNchRa_qjzpE8Cj5nkhx46qg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,5,65,with you too!~good job all,fSMHCA2X7sKM5kb39,/experiment/tangram_I.png,listener,1,whYPsCAALJKsn3n2g,TRUE
-1207,DcXwsnq5ZxcStKdHi,65,B5MTKDEMohMJNchRa_qjzpE8Cj5nkhx46qg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,5,65,you too,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1208,sqpHX8DSF8xNr7ypn,66,2FkWRYgujXwJEpxmM_rgGCgxJQY7DuG7Mna,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,5,66,legs bent,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1209,sqpHX8DSF8xNr7ypn,66,2FkWRYgujXwJEpxmM_rgGCgxJQY7DuG7Mna,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,5,66,nun position,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1210,sqpHX8DSF8xNr7ypn,66,2FkWRYgujXwJEpxmM_rgGCgxJQY7DuG7Mna,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,5,66,we can't see all legs,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1211,QawAHckN6DypeJfEK,67,XnhAKD9DTsGopvdNu_mm32guJsz56GrvsC6,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,5,67,praying position,whYPsCAALJKsn3n2g,/experiment/tangram_K.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1212,rZsFY4JoKTFFAxMaj,68,3y5ETvKEuvhnsM5vR_XbxkfhsKdv3rmcDY7,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,5,68,left side alla straight,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1213,rZsFY4JoKTFFAxMaj,68,3y5ETvKEuvhnsM5vR_XbxkfhsKdv3rmcDY7,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,5,68,till the end,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1214,DSRCZDhq6ovFvRXTb,69,uJYfu4ygfP8LPZXGu_koA5ZB7AqGC6fp4XW,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,5,69,triangle pointing left,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1215,DSRCZDhq6ovFvRXTb,69,uJYfu4ygfP8LPZXGu_koA5ZB7AqGC6fp4XW,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,5,69,square,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1216,DSRCZDhq6ovFvRXTb,69,uJYfu4ygfP8LPZXGu_koA5ZB7AqGC6fp4XW,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,5,69,2 triangles,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
-1217,dNQRALhjiovW8vtrN,70,tXNsaRfYszFMkX5Ei_W5kt4wt5w8eFtWN4P,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,5,70,legs bent,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1218,dNQRALhjiovW8vtrN,70,tXNsaRfYszFMkX5Ei_W5kt4wt5w8eFtWN4P,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,5,70,to the right,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1219,dNQRALhjiovW8vtrN,70,tXNsaRfYszFMkX5Ei_W5kt4wt5w8eFtWN4P,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,5,70,we can see them all,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1220,dNQRALhjiovW8vtrN,70,tXNsaRfYszFMkX5Ei_W5kt4wt5w8eFtWN4P,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,5,70,arms in front,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1221,dNQRALhjiovW8vtrN,70,tXNsaRfYszFMkX5Ei_W5kt4wt5w8eFtWN4P,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,5,70,to the right,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1222,SZoG5TpeMWZe24c5g,71,QZ7f6cTyhnKGKwpoN_qHhuRkHKZ8LpEMRSF,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,5,71,right side pretty straight till the end,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
-1223,SZoG5TpeMWZe24c5g,71,QZ7f6cTyhnKGKwpoN_qHhuRkHKZ8LpEMRSF,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,5,71,we're almost finished haha,fSMHCA2X7sKM5kb39,/experiment/tangram_D.png,listener,2,whYPsCAALJKsn3n2g,TRUE
-1224,SZoG5TpeMWZe24c5g,71,QZ7f6cTyhnKGKwpoN_qHhuRkHKZ8LpEMRSF,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,5,71,Aaaand we made it people! congrats!,XfPenstnRyoSskufp,/experiment/tangram_D.png,listener,2,whYPsCAALJKsn3n2g,TRUE
-1225,SZoG5TpeMWZe24c5g,71,QZ7f6cTyhnKGKwpoN_qHhuRkHKZ8LpEMRSF,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,5,71,finally,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+834,qKn8BpRD8kNEdFurh,0,R6XtaZvFZ2CsT9hNF_PQyET7kpPCjRbrCTs,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,0,0,0,helloooooo,TcSFd2e7jR4nEmwgk,/experiment/tangram_B.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
+835,qKn8BpRD8kNEdFurh,0,R6XtaZvFZ2CsT9hNF_PQyET7kpPCjRbrCTs,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,0,0,0,hii,qFRcN5H2Wh32P5CXo,/experiment/tangram_B.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
+836,qKn8BpRD8kNEdFurh,0,R6XtaZvFZ2CsT9hNF_PQyET7kpPCjRbrCTs,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,0,0,0,what's the description?,TcSFd2e7jR4nEmwgk,/experiment/tangram_B.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
+837,qKn8BpRD8kNEdFurh,0,R6XtaZvFZ2CsT9hNF_PQyET7kpPCjRbrCTs,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,0,0,0,it looks like a mouse looking up,qFRcN5H2Wh32P5CXo,/experiment/tangram_B.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
+838,qKn8BpRD8kNEdFurh,0,R6XtaZvFZ2CsT9hNF_PQyET7kpPCjRbrCTs,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,0,0,0,can you share details,NDxDF3jtu4GsxE6Ka,/experiment/tangram_B.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
+839,qKn8BpRD8kNEdFurh,0,R6XtaZvFZ2CsT9hNF_PQyET7kpPCjRbrCTs,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,0,0,0,does that make sense?,qFRcN5H2Wh32P5CXo,/experiment/tangram_B.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
+840,qKn8BpRD8kNEdFurh,0,R6XtaZvFZ2CsT9hNF_PQyET7kpPCjRbrCTs,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,0,0,0,yes,TcSFd2e7jR4nEmwgk,/experiment/tangram_B.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
+841,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,good one!,NDxDF3jtu4GsxE6Ka,/experiment/tangram_G.png,listener,0,qFRcN5H2Wh32P5CXo,TRUE
+842,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,:),qFRcN5H2Wh32P5CXo,/experiment/tangram_G.png,speaker,0,qFRcN5H2Wh32P5CXo,TRUE
+843,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,share details,NDxDF3jtu4GsxE6Ka,/experiment/tangram_G.png,listener,0,qFRcN5H2Wh32P5CXo,TRUE
+844,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,can you share details on the descripton,NDxDF3jtu4GsxE6Ka,/experiment/tangram_G.png,listener,0,qFRcN5H2Wh32P5CXo,TRUE
+845,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,now it looks like someone is,qFRcN5H2Wh32P5CXo,/experiment/tangram_G.png,speaker,0,qFRcN5H2Wh32P5CXo,TRUE
+846,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,is?,TcSFd2e7jR4nEmwgk,/experiment/tangram_G.png,listener,0,qFRcN5H2Wh32P5CXo,TRUE
+847,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,worshiping,qFRcN5H2Wh32P5CXo,/experiment/tangram_G.png,speaker,0,qFRcN5H2Wh32P5CXo,TRUE
+848,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,but,qFRcN5H2Wh32P5CXo,/experiment/tangram_G.png,speaker,0,qFRcN5H2Wh32P5CXo,TRUE
+849,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,on their knees,qFRcN5H2Wh32P5CXo,/experiment/tangram_G.png,speaker,0,qFRcN5H2Wh32P5CXo,TRUE
+850,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,ok,TcSFd2e7jR4nEmwgk,/experiment/tangram_G.png,listener,0,qFRcN5H2Wh32P5CXo,TRUE
+851,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,lokking to the right,qFRcN5H2Wh32P5CXo,/experiment/tangram_G.png,speaker,0,qFRcN5H2Wh32P5CXo,TRUE
+852,PLaeM9u79Aguktztd,1,kKfRwp4onGidDwBTZ_dDNEZxCFCaGuLELs3,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,1,0,1,sorry,qFRcN5H2Wh32P5CXo,/experiment/tangram_G.png,speaker,0,qFRcN5H2Wh32P5CXo,TRUE
+853,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,this one is easier,qFRcN5H2Wh32P5CXo,/experiment/tangram_D.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+854,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,didn't get that,TcSFd2e7jR4nEmwgk,/experiment/tangram_D.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
+855,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,me neither,NDxDF3jtu4GsxE6Ka,/experiment/tangram_D.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
+856,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,a person with a robe pointing to the left,qFRcN5H2Wh32P5CXo,/experiment/tangram_D.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+857,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,hmm,TcSFd2e7jR4nEmwgk,/experiment/tangram_D.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
+858,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,does it look like they are holding an item,NDxDF3jtu4GsxE6Ka,/experiment/tangram_D.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
+859,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,no,qFRcN5H2Wh32P5CXo,/experiment/tangram_D.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+860,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,can you add something else,NDxDF3jtu4GsxE6Ka,/experiment/tangram_D.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
+861,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,like a hand with long sleeve pointing,qFRcN5H2Wh32P5CXo,/experiment/tangram_D.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+862,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,they are standing,qFRcN5H2Wh32P5CXo,/experiment/tangram_D.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+863,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,idk,TcSFd2e7jR4nEmwgk,/experiment/tangram_D.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
+864,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,pointing left ?,NDxDF3jtu4GsxE6Ka,/experiment/tangram_D.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
+865,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,yes,qFRcN5H2Wh32P5CXo,/experiment/tangram_D.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+866,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,left,qFRcN5H2Wh32P5CXo,/experiment/tangram_D.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+867,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,standibg on one leg ?,NDxDF3jtu4GsxE6Ka,/experiment/tangram_D.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
+868,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,hurry,TcSFd2e7jR4nEmwgk,/experiment/tangram_D.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
+869,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,no just normal standing,qFRcN5H2Wh32P5CXo,/experiment/tangram_D.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+870,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,with long robe,qFRcN5H2Wh32P5CXo,/experiment/tangram_D.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+871,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,and like you can see the tip of their shoe,qFRcN5H2Wh32P5CXo,/experiment/tangram_D.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+872,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,as well pointing left,qFRcN5H2Wh32P5CXo,/experiment/tangram_D.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+873,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,i dont know,NDxDF3jtu4GsxE6Ka,/experiment/tangram_D.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
+874,eobxBHqKcWajZZWhT,2,ThH5D6DEgR5NrFDAu_RTQZiLqHacmqsjpN9,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,2,0,2,just guess,TcSFd2e7jR4nEmwgk,/experiment/tangram_D.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
+875,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,gooo,TcSFd2e7jR4nEmwgk,/experiment/tangram_K.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
+876,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,is the one,qFRcN5H2Wh32P5CXo,/experiment/tangram_K.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+877,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,one of you got wrong,qFRcN5H2Wh32P5CXo,/experiment/tangram_K.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+878,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,last time,qFRcN5H2Wh32P5CXo,/experiment/tangram_K.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+879,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,on their knees,qFRcN5H2Wh32P5CXo,/experiment/tangram_K.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+880,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,praying,qFRcN5H2Wh32P5CXo,/experiment/tangram_K.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+881,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,right,qFRcN5H2Wh32P5CXo,/experiment/tangram_K.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+882,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,got it I think,TcSFd2e7jR4nEmwgk,/experiment/tangram_K.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
+883,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,same one again?,TcSFd2e7jR4nEmwgk,/experiment/tangram_K.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
+884,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,no,qFRcN5H2Wh32P5CXo,/experiment/tangram_K.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+885,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,I've guessed,NDxDF3jtu4GsxE6Ka,/experiment/tangram_K.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
+886,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,the one I clicked instead?,TcSFd2e7jR4nEmwgk,/experiment/tangram_K.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
+887,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,this one is on their knees,qFRcN5H2Wh32P5CXo,/experiment/tangram_K.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+888,vPXDhn4v4suWZMuYp,3,vhzQ9pRftRhXQba6r_TCStMNi4y4pdtkGFZ,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,3,0,3,ah ok,TcSFd2e7jR4nEmwgk,/experiment/tangram_K.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
+889,abHrWzwSCZQ3862bq,4,2QDADzYzR7PZkN7sQ_iyrm4MgLcdLMKvQ7r,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,4,0,4,is like someone is kicking a stone,qFRcN5H2Wh32P5CXo,/experiment/tangram_A.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
+890,abHrWzwSCZQ3862bq,4,2QDADzYzR7PZkN7sQ_iyrm4MgLcdLMKvQ7r,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,4,0,4,looking down,qFRcN5H2Wh32P5CXo,/experiment/tangram_A.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
+891,abHrWzwSCZQ3862bq,4,2QDADzYzR7PZkN7sQ_iyrm4MgLcdLMKvQ7r,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,4,0,4,sad,qFRcN5H2Wh32P5CXo,/experiment/tangram_A.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
+892,abHrWzwSCZQ3862bq,4,2QDADzYzR7PZkN7sQ_iyrm4MgLcdLMKvQ7r,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,4,0,4,ok,NDxDF3jtu4GsxE6Ka,/experiment/tangram_A.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
+893,abHrWzwSCZQ3862bq,4,2QDADzYzR7PZkN7sQ_iyrm4MgLcdLMKvQ7r,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,4,0,4,and has a little wing on its back,qFRcN5H2Wh32P5CXo,/experiment/tangram_A.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
+894,ytXnk3oJxX7X4jMab,5,cvK4AXiKBNPjQzpLr_6wqSAmESSLSBCTruK,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,0,5,a head,qFRcN5H2Wh32P5CXo,/experiment/tangram_H.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+895,ytXnk3oJxX7X4jMab,5,cvK4AXiKBNPjQzpLr_6wqSAmESSLSBCTruK,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,0,5,ok,TcSFd2e7jR4nEmwgk,/experiment/tangram_H.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
+896,ytXnk3oJxX7X4jMab,5,cvK4AXiKBNPjQzpLr_6wqSAmESSLSBCTruK,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,0,5,with long robe,qFRcN5H2Wh32P5CXo,/experiment/tangram_H.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+897,ytXnk3oJxX7X4jMab,5,cvK4AXiKBNPjQzpLr_6wqSAmESSLSBCTruK,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,0,5,it doesnt have anything,qFRcN5H2Wh32P5CXo,/experiment/tangram_H.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+898,ytXnk3oJxX7X4jMab,5,cvK4AXiKBNPjQzpLr_6wqSAmESSLSBCTruK,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,0,5,special,qFRcN5H2Wh32P5CXo,/experiment/tangram_H.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+899,ytXnk3oJxX7X4jMab,5,cvK4AXiKBNPjQzpLr_6wqSAmESSLSBCTruK,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,0,5,anything else,NDxDF3jtu4GsxE6Ka,/experiment/tangram_H.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
+900,ytXnk3oJxX7X4jMab,5,cvK4AXiKBNPjQzpLr_6wqSAmESSLSBCTruK,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,0,5,pointing right?,TcSFd2e7jR4nEmwgk,/experiment/tangram_H.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
+901,ytXnk3oJxX7X4jMab,5,cvK4AXiKBNPjQzpLr_6wqSAmESSLSBCTruK,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,0,5,just a head and a body,qFRcN5H2Wh32P5CXo,/experiment/tangram_H.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+902,ytXnk3oJxX7X4jMab,5,cvK4AXiKBNPjQzpLr_6wqSAmESSLSBCTruK,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,0,5,standing or what ?,NDxDF3jtu4GsxE6Ka,/experiment/tangram_H.png,listener,1,qFRcN5H2Wh32P5CXo,TRUE
+903,ytXnk3oJxX7X4jMab,5,cvK4AXiKBNPjQzpLr_6wqSAmESSLSBCTruK,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,5,0,5,no its not pointing,qFRcN5H2Wh32P5CXo,/experiment/tangram_H.png,speaker,1,qFRcN5H2Wh32P5CXo,TRUE
+904,wCvzzKcH5zms6CxvW,6,7wykdHrwqnYdyMjJT_9Gt9HFr7v4jo7z2mq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,0,6,these are not going well,NDxDF3jtu4GsxE6Ka,/experiment/tangram_L.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
+905,wCvzzKcH5zms6CxvW,6,7wykdHrwqnYdyMjJT_9Gt9HFr7v4jo7z2mq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,0,6,its like it was on its knees but now its in the process of standing,qFRcN5H2Wh32P5CXo,/experiment/tangram_L.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
+906,wCvzzKcH5zms6CxvW,6,7wykdHrwqnYdyMjJT_9Gt9HFr7v4jo7z2mq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,0,6,and it was praying,qFRcN5H2Wh32P5CXo,/experiment/tangram_L.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
+907,wCvzzKcH5zms6CxvW,6,7wykdHrwqnYdyMjJT_9Gt9HFr7v4jo7z2mq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,0,6,ok,TcSFd2e7jR4nEmwgk,/experiment/tangram_L.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
+908,wCvzzKcH5zms6CxvW,6,7wykdHrwqnYdyMjJT_9Gt9HFr7v4jo7z2mq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,0,6,sorry im not good at describing them,qFRcN5H2Wh32P5CXo,/experiment/tangram_L.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
+909,wCvzzKcH5zms6CxvW,6,7wykdHrwqnYdyMjJT_9Gt9HFr7v4jo7z2mq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,0,6,can you describe the bottom ot it,NDxDF3jtu4GsxE6Ka,/experiment/tangram_L.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
+910,wCvzzKcH5zms6CxvW,6,7wykdHrwqnYdyMjJT_9Gt9HFr7v4jo7z2mq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,0,6,I can see two similiar,NDxDF3jtu4GsxE6Ka,/experiment/tangram_L.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
+911,wCvzzKcH5zms6CxvW,6,7wykdHrwqnYdyMjJT_9Gt9HFr7v4jo7z2mq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,0,6,its like the knees are pointing right,qFRcN5H2Wh32P5CXo,/experiment/tangram_L.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
+912,wCvzzKcH5zms6CxvW,6,7wykdHrwqnYdyMjJT_9Gt9HFr7v4jo7z2mq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,0,6,but,qFRcN5H2Wh32P5CXo,/experiment/tangram_L.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
+913,wCvzzKcH5zms6CxvW,6,7wykdHrwqnYdyMjJT_9Gt9HFr7v4jo7z2mq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,0,6,the knees are not on the floor,qFRcN5H2Wh32P5CXo,/experiment/tangram_L.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
+914,wCvzzKcH5zms6CxvW,6,7wykdHrwqnYdyMjJT_9Gt9HFr7v4jo7z2mq,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,6,0,6,got it,TcSFd2e7jR4nEmwgk,/experiment/tangram_L.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
+915,iMzaSSNB8ng8AChnP,7,XNnLPqvDPc6cnseup_5KuKpAcrXgZnGrs8z,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,7,0,7,?,NDxDF3jtu4GsxE6Ka,/experiment/tangram_I.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
+916,iMzaSSNB8ng8AChnP,7,XNnLPqvDPc6cnseup_5KuKpAcrXgZnGrs8z,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,7,0,7,it looks like a person throwing a kick,qFRcN5H2Wh32P5CXo,/experiment/tangram_I.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
+917,iMzaSSNB8ng8AChnP,7,XNnLPqvDPc6cnseup_5KuKpAcrXgZnGrs8z,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,7,0,7,or doing karate,qFRcN5H2Wh32P5CXo,/experiment/tangram_I.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
+918,iMzaSSNB8ng8AChnP,7,XNnLPqvDPc6cnseup_5KuKpAcrXgZnGrs8z,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,7,0,7,about to kick?,TcSFd2e7jR4nEmwgk,/experiment/tangram_I.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
+919,iMzaSSNB8ng8AChnP,7,XNnLPqvDPc6cnseup_5KuKpAcrXgZnGrs8z,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,7,0,7,"can you descrbie the ""feet""",NDxDF3jtu4GsxE6Ka,/experiment/tangram_I.png,listener,2,qFRcN5H2Wh32P5CXo,TRUE
+920,iMzaSSNB8ng8AChnP,7,XNnLPqvDPc6cnseup_5KuKpAcrXgZnGrs8z,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,7,0,7,it looks like it has spikes on its back,qFRcN5H2Wh32P5CXo,/experiment/tangram_I.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
+921,iMzaSSNB8ng8AChnP,7,XNnLPqvDPc6cnseup_5KuKpAcrXgZnGrs8z,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,7,0,7,and the feet (kicking) to the right,qFRcN5H2Wh32P5CXo,/experiment/tangram_I.png,speaker,2,qFRcN5H2Wh32P5CXo,TRUE
+922,zLbeF39Gr4mzJRyfK,8,wyzuJcsWPXx5LxK5A_mCrCbQmgYCLTPrZSe,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,8,0,8,on the left is square,qFRcN5H2Wh32P5CXo,/experiment/tangram_J.png,speaker,0,qFRcN5H2Wh32P5CXo,FALSE
+923,zLbeF39Gr4mzJRyfK,8,wyzuJcsWPXx5LxK5A_mCrCbQmgYCLTPrZSe,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,8,0,8,and like someone pointing to the right,qFRcN5H2Wh32P5CXo,/experiment/tangram_J.png,speaker,0,qFRcN5H2Wh32P5CXo,FALSE
+924,zLbeF39Gr4mzJRyfK,8,wyzuJcsWPXx5LxK5A_mCrCbQmgYCLTPrZSe,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,8,0,8,on the top?,TcSFd2e7jR4nEmwgk,/experiment/tangram_J.png,listener,0,qFRcN5H2Wh32P5CXo,FALSE
+925,zLbeF39Gr4mzJRyfK,8,wyzuJcsWPXx5LxK5A_mCrCbQmgYCLTPrZSe,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,8,0,8,?,NDxDF3jtu4GsxE6Ka,/experiment/tangram_J.png,listener,0,qFRcN5H2Wh32P5CXo,FALSE
+926,zLbeF39Gr4mzJRyfK,8,wyzuJcsWPXx5LxK5A_mCrCbQmgYCLTPrZSe,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,8,0,8,can you share a description,NDxDF3jtu4GsxE6Ka,/experiment/tangram_J.png,listener,0,qFRcN5H2Wh32P5CXo,FALSE
+927,zLbeF39Gr4mzJRyfK,8,wyzuJcsWPXx5LxK5A_mCrCbQmgYCLTPrZSe,TK8NKfnbmLhmLyHT4,2021-03-08T20:33:30Z,8,0,8,hello,NDxDF3jtu4GsxE6Ka,/experiment/tangram_J.png,listener,0,qFRcN5H2Wh32P5CXo,FALSE
+928,JJjiSjmwS3GRqQRNE,0,gB4ojCWLZdxDZ7S73_ESv86SgZSiCk69B89,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,0,0,c'è un quadrato sopra; il lato sinistro è dritto fino in fondo; a destra è frastagliato,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
+929,JJjiSjmwS3GRqQRNE,0,gB4ojCWLZdxDZ7S73_ESv86SgZSiCk69B89,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,0,0,in English please!,XfPenstnRyoSskufp,/experiment/tangram_J.png,listener,0,whYPsCAALJKsn3n2g,TRUE
+930,JJjiSjmwS3GRqQRNE,0,gB4ojCWLZdxDZ7S73_ESv86SgZSiCk69B89,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,0,0,there is a square on the top,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
+931,JJjiSjmwS3GRqQRNE,0,gB4ojCWLZdxDZ7S73_ESv86SgZSiCk69B89,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,0,0,the left side is straight,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
+932,JJjiSjmwS3GRqQRNE,0,gB4ojCWLZdxDZ7S73_ESv86SgZSiCk69B89,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,0,0,till the end,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
+933,x2fBi3BkXd9uZAC74,1,5WHkANn2PRdGbKher_r8KwZB32GY8WFbyPy,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,0,1,there is a square on the top,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+934,x2fBi3BkXd9uZAC74,1,5WHkANn2PRdGbKher_r8KwZB32GY8WFbyPy,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,0,1,the right side is straight till the end,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+935,MHAyurNjoLYK5FpbM,2,CYvrSBwDZfBFyhCxz_aQgHGZPFLrnyjNkQP,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,0,2,seems like a person is lying on the floor,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+936,MHAyurNjoLYK5FpbM,2,CYvrSBwDZfBFyhCxz_aQgHGZPFLrnyjNkQP,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,0,2,there is a tringle on the bottom left,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+937,MHAyurNjoLYK5FpbM,2,CYvrSBwDZfBFyhCxz_aQgHGZPFLrnyjNkQP,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,0,2,bottom right sorry,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+938,MHAyurNjoLYK5FpbM,2,CYvrSBwDZfBFyhCxz_aQgHGZPFLrnyjNkQP,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,0,2,with his hands up in the air?,XfPenstnRyoSskufp,/experiment/tangram_G.png,listener,1,whYPsCAALJKsn3n2g,TRUE
+939,MHAyurNjoLYK5FpbM,2,CYvrSBwDZfBFyhCxz_aQgHGZPFLrnyjNkQP,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,0,2,no,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+940,MHAyurNjoLYK5FpbM,2,CYvrSBwDZfBFyhCxz_aQgHGZPFLrnyjNkQP,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,0,2,like he's on one side,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+941,6keqyRqaB2FyrAgTQ,3,ys6T5BCwWJFx3LLNL_N9M2NqhgaXeLN97Cg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,0,3,he's sitting; but not on the floor this time,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+942,6keqyRqaB2FyrAgTQ,3,ys6T5BCwWJFx3LLNL_N9M2NqhgaXeLN97Cg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,0,3,knees bend and pointing to the right?,XfPenstnRyoSskufp,/experiment/tangram_H.png,listener,1,whYPsCAALJKsn3n2g,TRUE
+943,6keqyRqaB2FyrAgTQ,3,ys6T5BCwWJFx3LLNL_N9M2NqhgaXeLN97Cg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,0,3,no; it's one block,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+944,pWrqvRMeqXEQKNAYC,4,fTQcp5YWzhCSFDfze_HqHvZBwgoDPbjJMi9,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,0,4,he's on one knee,whYPsCAALJKsn3n2g,/experiment/tangram_B.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+945,pWrqvRMeqXEQKNAYC,4,fTQcp5YWzhCSFDfze_HqHvZBwgoDPbjJMi9,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,0,4,with arms in the air,whYPsCAALJKsn3n2g,/experiment/tangram_B.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+946,MdnpdbXTEfHJXB2RX,5,8XfPZLrKAjzjTkZDg_8FWD76SKtZfcvL6HS,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,0,5,he's standing with one leg up in the front,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+947,MdnpdbXTEfHJXB2RX,5,8XfPZLrKAjzjTkZDg_8FWD76SKtZfcvL6HS,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,0,5,the square is pending on the right,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+948,DteHmEiP6ZS6PZgyq,6,qnFYcWFMmvZNbPGCn_Cf5kSNtZMq8ZCdfuu,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,0,6,he's on the floor with legs bent,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+949,DteHmEiP6ZS6PZgyq,6,qnFYcWFMmvZNbPGCn_Cf5kSNtZMq8ZCdfuu,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,0,6,legs point to the left?,XfPenstnRyoSskufp,/experiment/tangram_F.png,listener,2,whYPsCAALJKsn3n2g,TRUE
+950,DteHmEiP6ZS6PZgyq,6,qnFYcWFMmvZNbPGCn_Cf5kSNtZMq8ZCdfuu,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,0,6,like he's on the floor with his back on the wall,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+951,DteHmEiP6ZS6PZgyq,6,qnFYcWFMmvZNbPGCn_Cf5kSNtZMq8ZCdfuu,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,0,6,yes,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+952,H2a5hGnBeNDS8XZyH,7,huKsgrLd9GCpECz7v_jSvEmBDknKxa6tQ6W,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,0,7,he's pointig with his body on the left,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+953,H2a5hGnBeNDS8XZyH,7,huKsgrLd9GCpECz7v_jSvEmBDknKxa6tQ6W,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,0,7,with his arms in the air,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+954,buSMgSHWaZ5L4kNR4,8,zPzFxcaoWYuAKrus9_qN89wziJZh4ksN5jH,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,0,8,he's standing with a leg up on the back,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+955,buSMgSHWaZ5L4kNR4,8,zPzFxcaoWYuAKrus9_qN89wziJZh4ksN5jH,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,0,8,the leg is pointing to the right,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+956,erXherG8yjAM7CMHu,9,FxGRausiQX3voC7uE_wQTypdxjrjppkKpDA,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,0,9,he's on his knees like he's praying,whYPsCAALJKsn3n2g,/experiment/tangram_K.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+957,erXherG8yjAM7CMHu,9,FxGRausiQX3voC7uE_wQTypdxjrjppkKpDA,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,0,9,his hands are on the right,whYPsCAALJKsn3n2g,/experiment/tangram_K.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+958,gsyDcBMCNgB6bbzpJ,10,jxp8qzeDWLTzitEgC_hEHNSJJhKwJBhCboZ,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,0,10,there's a triangle pointing left,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+959,gsyDcBMCNgB6bbzpJ,10,jxp8qzeDWLTzitEgC_hEHNSJJhKwJBhCboZ,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,0,10,then there's a square,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+960,gsyDcBMCNgB6bbzpJ,10,jxp8qzeDWLTzitEgC_hEHNSJJhKwJBhCboZ,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,0,10,and two tringles on the top,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+961,QeCvuiY3SGLzEisSq,11,r9ErJc77QHShWewxp_ZNcLHzrENpQpBsF7v,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,0,11,his legs are bent on the right,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+962,QeCvuiY3SGLzEisSq,11,r9ErJc77QHShWewxp_ZNcLHzrENpQpBsF7v,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,0,11,his arms are in the front; to the right,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+963,QeCvuiY3SGLzEisSq,11,r9ErJc77QHShWewxp_ZNcLHzrENpQpBsF7v,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,0,11,not bent alla the way; just half way,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+964,aC2uWMWpEpfMT8n2a,12,vmjr7NrMWRYBp5XyJ_dmogddw78MDbMGQXe,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,1,12,there a square on the top,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+965,aC2uWMWpEpfMT8n2a,12,vmjr7NrMWRYBp5XyJ_dmogddw78MDbMGQXe,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,1,12,the left side is straight till the end,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+966,yZKBvxYBziLT47nXv,13,zEKQqtouaT2jibvE7_X8hTx9z273rDkuojx,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,1,13,again the praying position,whYPsCAALJKsn3n2g,/experiment/tangram_K.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+967,4vFZ6hveTjiqWrvkW,14,RPGZRHFaogXhodxXW_mFfZdf8PSd7nK5xdr,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,1,14,he's sitting but not on the floor,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+968,AK2qkKyAstMoMdA9d,15,5FnkLsArTdRjAtZSF_ibvk3e4NFv5aKMnzJ,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,1,15,like he's lying on one side,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+969,AkMHmyWoqK5YmbDTv,16,BK8fFd6PnDym3tQgD_konAHwrrH24dRjfKT,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,1,16,his legs are bend and his arms are in the front on the right,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+970,B4uQh7qqWjozuAK9W,17,LkGMmfFtYassju6c8_AJyPpF5KoXZemjjWa,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,1,17,his leg is up on the right,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+971,B4uQh7qqWjozuAK9W,17,LkGMmfFtYassju6c8_AJyPpF5KoXZemjjWa,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,1,17,his body is bend to the left,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+972,B4uQh7qqWjozuAK9W,17,LkGMmfFtYassju6c8_AJyPpF5KoXZemjjWa,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,1,17,his arms in front of him to the left,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+973,uS79hbZWLMnjgDjHG,18,AhKpoJYoA9RgLMAYq_2j9Km3FfMTHsaT7e9,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,1,18,he's on one knee with arms in the air,whYPsCAALJKsn3n2g,/experiment/tangram_B.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+974,y36F8DQpeTcbD74Jn,19,Hun2ngCgTL4bKtoR5_rzaYaqAzoDhzqrAzp,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,1,19,triangle pointing left,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+975,y36F8DQpeTcbD74Jn,19,Hun2ngCgTL4bKtoR5_rzaYaqAzoDhzqrAzp,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,1,19,then square,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+976,y36F8DQpeTcbD74Jn,19,Hun2ngCgTL4bKtoR5_rzaYaqAzoDhzqrAzp,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,1,19,and two tringles,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+977,DXMn3mcNosznctQuZ,20,9NdDPhewCQqibz6yy_ceiQxLPgCawDQF9zZ,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,1,20,his body points left,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+978,DXMn3mcNosznctQuZ,20,9NdDPhewCQqibz6yy_ceiQxLPgCawDQF9zZ,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,1,20,arms in the air,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+979,HekWgmat6gGxx6cAA,21,yPDg9QdYtznXCfNuW_QS9YhPyyx9rxhgZbQ,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,1,21,one leg is up on the left,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+980,HekWgmat6gGxx6cAA,21,yPDg9QdYtznXCfNuW_QS9YhPyyx9rxhgZbQ,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,1,21,there's a square hanging on the right,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+981,2fb88aBf4Knqs2euz,22,WiHA2hifSwXiR5PRP_g24vjavByy8eAhRC4,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,1,22,there's a square on the top,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+982,2fb88aBf4Knqs2euz,22,WiHA2hifSwXiR5PRP_g24vjavByy8eAhRC4,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,1,22,then his arms are in front of him on the left,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+983,2fb88aBf4Knqs2euz,22,WiHA2hifSwXiR5PRP_g24vjavByy8eAhRC4,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,1,22,on the right is pretty staright till the end,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+984,bLacGQrSCvYdx2DaW,23,Hvc8GvcxJk45y8xwv_tQREX3mp8zBvZKW8w,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,1,23,he's sitting on the floor,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+985,bLacGQrSCvYdx2DaW,23,Hvc8GvcxJk45y8xwv_tQREX3mp8zBvZKW8w,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,1,23,legs bend,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+986,iEhEsJLwJW4n7rqqq,24,pzM7oybPDGQvgga2d_LQj7jWQS2kupLSSdd,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,2,24,sitting position; not on the floor,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+987,iEhEsJLwJW4n7rqqq,24,pzM7oybPDGQvgga2d_LQj7jWQS2kupLSSdd,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,2,24,we can't see all legs,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+988,6vfZ2bzXYNKudhghE,25,Cq4D9LNo22b4g557P_Fhx3j4EH44vuWffJW,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,2,25,again the leg up on the left,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+989,6vfZ2bzXYNKudhghE,25,Cq4D9LNo22b4g557P_Fhx3j4EH44vuWffJW,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,2,25,square hanging on the right,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+990,EfmMxEbHWLDPFWqyu,26,9eStjJC2oEcDAc2mZ_zq3A53AnkDcXWCDqM,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,2,26,his sitting not on the floor,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
+991,EfmMxEbHWLDPFWqyu,26,9eStjJC2oEcDAc2mZ_zq3A53AnkDcXWCDqM,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,2,26,we can see all legs,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
+992,EfmMxEbHWLDPFWqyu,26,9eStjJC2oEcDAc2mZ_zq3A53AnkDcXWCDqM,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,2,26,legs bend on the right,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
+993,EfmMxEbHWLDPFWqyu,26,9eStjJC2oEcDAc2mZ_zq3A53AnkDcXWCDqM,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,2,26,arms in the front,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
+994,qrwtD6ifAzC2iGC34,27,h7kr4pxXKFEvEBJ9u_XWqAJactH2wQT2t5Q,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,2,27,praying position,whYPsCAALJKsn3n2g,/experiment/tangram_K.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+995,5N5Eh5H64PBpf3yoT,28,3BWxGGjxfCg8pkB66_83ACEptcwADiCZma3,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,2,28,lying on the side,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+996,bAAYpNaznwqAkSLah,29,kTYsewoBMNrSHWvKs_wvMvbtQLqtYiLuzuu,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,2,29,leg up to the right,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+997,bAAYpNaznwqAkSLah,29,kTYsewoBMNrSHWvKs_wvMvbtQLqtYiLuzuu,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,2,29,his body on the left,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+998,pohpJTSTaqtZ8wbzo,30,fE7NuuFzaEF9wEi7f_NPjoNiYdmtCcTw3h8,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,2,30,square on top,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+999,pohpJTSTaqtZ8wbzo,30,fE7NuuFzaEF9wEi7f_NPjoNiYdmtCcTw3h8,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,2,30,arms on the left,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1000,pohpJTSTaqtZ8wbzo,30,fE7NuuFzaEF9wEi7f_NPjoNiYdmtCcTw3h8,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,2,30,right pretty straight till the end,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1001,CKZPNreYXJbAmZqFR,31,bervA9MKp2b6HXzqR_d2y5wtor64z3YQYmR,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,2,31,on the knees,whYPsCAALJKsn3n2g,/experiment/tangram_B.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1002,CKZPNreYXJbAmZqFR,31,bervA9MKp2b6HXzqR_d2y5wtor64z3YQYmR,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,2,31,arms in the air,whYPsCAALJKsn3n2g,/experiment/tangram_B.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1003,CKZPNreYXJbAmZqFR,31,bervA9MKp2b6HXzqR_d2y5wtor64z3YQYmR,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,2,31,on one knee,whYPsCAALJKsn3n2g,/experiment/tangram_B.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1004,hQfjZjh66nnfaZBWS,32,jF9EzEETtMryycfau_rGgLTGuXDFdndyH3a,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,2,32,on the floor,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1005,hQfjZjh66nnfaZBWS,32,jF9EzEETtMryycfau_rGgLTGuXDFdndyH3a,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,2,32,on the wall,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1006,hQfjZjh66nnfaZBWS,32,jF9EzEETtMryycfau_rGgLTGuXDFdndyH3a,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,2,32,with his back,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1007,h5hYhuWfs245jsGsr,33,GWgdNzpW2fSyQkZ4E_8P4MLTHjeeYNGtrgB,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,2,33,square on top,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1008,h5hYhuWfs245jsGsr,33,GWgdNzpW2fSyQkZ4E_8P4MLTHjeeYNGtrgB,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,2,33,left side straight till the end,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1009,TY65x6hW539kKXakL,34,Dz6X68oteCWKNdcym_4x2uEseer229rRZoa,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,2,34,triangle point left,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1010,TY65x6hW539kKXakL,34,Dz6X68oteCWKNdcym_4x2uEseer229rRZoa,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,2,34,square,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1011,TY65x6hW539kKXakL,34,Dz6X68oteCWKNdcym_4x2uEseer229rRZoa,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,2,34,then 2 tringles,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1012,haWcbdfcjsv3gb3EK,35,YMCvdT2SqqeKpMfkd_JMauMcJ9poa2XNWoa,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,2,35,his body bend to the left,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1013,haWcbdfcjsv3gb3EK,35,YMCvdT2SqqeKpMfkd_JMauMcJ9poa2XNWoa,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,2,35,arms in the air,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1014,aBwL9QokXES7CnyQz,36,KwmvC9yPMPJZfRgoX_XAQ8yrrrfDqB847DC,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,3,36,legs bend to the right,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1015,aBwL9QokXES7CnyQz,36,KwmvC9yPMPJZfRgoX_XAQ8yrrrfDqB847DC,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,3,36,arms in front,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1016,aBwL9QokXES7CnyQz,36,KwmvC9yPMPJZfRgoX_XAQ8yrrrfDqB847DC,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,3,36,on the right,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1017,aBwL9QokXES7CnyQz,36,KwmvC9yPMPJZfRgoX_XAQ8yrrrfDqB847DC,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,3,36,we can see all legs,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1018,qi93SECLoC3H6WuLz,37,Q8EoEXRQvHQcnDcC3_MGcSSHjAgutkvXJh7,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,3,37,triangle point left,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1019,qi93SECLoC3H6WuLz,37,Q8EoEXRQvHQcnDcC3_MGcSSHjAgutkvXJh7,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,3,37,square,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1020,qi93SECLoC3H6WuLz,37,Q8EoEXRQvHQcnDcC3_MGcSSHjAgutkvXJh7,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,3,37,2 triangles,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1021,qi93SECLoC3H6WuLz,37,Q8EoEXRQvHQcnDcC3_MGcSSHjAgutkvXJh7,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,3,37,on top,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1022,AjNvurjSApS6QjbY5,38,ZXz24qX8CKbaAKuwy_3bCEiY4yzonA7Rwc4,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,3,38,on one knee; arms up,whYPsCAALJKsn3n2g,/experiment/tangram_B.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1023,c2KhWdJ9tF4BXCwvG,39,8vAWMXwHhbhAnpZba_yLDhWnnRgdiYy2mP5,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,3,39,lying on one side,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1024,c2KhWdJ9tF4BXCwvG,39,8vAWMXwHhbhAnpZba_yLDhWnnRgdiYy2mP5,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,3,39,arm on the floor to the right,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1025,SmLwb3yawdNZrRp5w,40,BFui5NDqcvqiAT9G6_jmZdZX3fpDTup9ZRu,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,3,40,on the floor,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1026,SmLwb3yawdNZrRp5w,40,BFui5NDqcvqiAT9G6_jmZdZX3fpDTup9ZRu,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,3,40,back to the wall,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1027,GzPiK4HFxvtA43j4Z,41,8TuTTT3itwLM2qCSX_A6Custu9aLnmBctrF,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,3,41,legs bend,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
+1028,GzPiK4HFxvtA43j4Z,41,8TuTTT3itwLM2qCSX_A6Custu9aLnmBctrF,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,3,41,we can't see them all,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
+1029,GzPiK4HFxvtA43j4Z,41,8TuTTT3itwLM2qCSX_A6Custu9aLnmBctrF,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,3,41,legs point right,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
+1030,r6vGZDXKoedQvxZam,42,gP6LE3AhtpzsuKGPJ_sQPDXFxi7nSnsNyyH,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,3,42,leg up to the left,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1031,r6vGZDXKoedQvxZam,42,gP6LE3AhtpzsuKGPJ_sQPDXFxi7nSnsNyyH,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,3,42,right sorry,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1032,r6vGZDXKoedQvxZam,42,gP6LE3AhtpzsuKGPJ_sQPDXFxi7nSnsNyyH,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,3,42,body bend to the left,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1033,r6vGZDXKoedQvxZam,42,gP6LE3AhtpzsuKGPJ_sQPDXFxi7nSnsNyyH,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,3,42,arms in front of him to the left,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1034,FBwrnZGuNHrfFfwFm,43,G2794gcgQ7Q2ERWeY_wgvxaL3LwA8nNZCMd,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,3,43,praying position,whYPsCAALJKsn3n2g,/experiment/tangram_K.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1035,qinmjyYNdRGjtDiWv,44,dKsZhYDu29pzyMYtg_YDhEjY4onw6fJNzte,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,3,44,square on top,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1036,qinmjyYNdRGjtDiWv,44,dKsZhYDu29pzyMYtg_YDhEjY4onw6fJNzte,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,3,44,right side pretty all straight,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1037,qinmjyYNdRGjtDiWv,44,dKsZhYDu29pzyMYtg_YDhEjY4onw6fJNzte,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,3,44,til the end,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1038,bGqaweFW6sY89JaoN,45,EuC4vP3rg7EX8RBd7_SRFBTSbaiiPyWFywS,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,3,45,left side straight,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1039,bGqaweFW6sY89JaoN,45,EuC4vP3rg7EX8RBd7_SRFBTSbaiiPyWFywS,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,3,45,till the end,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1040,yaKDhruxhwJYRedNn,46,o5fMytDhYFjz9CQjq_D4DA2eoofeZ24YjPc,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,3,46,square hanging on the right,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1041,yaKDhruxhwJYRedNn,46,o5fMytDhYFjz9CQjq_D4DA2eoofeZ24YjPc,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,3,46,leg up to the left,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1042,qRaqgbnMTzsWtJ5HD,47,atzT7ZLdAuRpKZRu4_h3xXhAcLLPvLvHjNd,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,3,47,body on the left,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1043,qRaqgbnMTzsWtJ5HD,47,atzT7ZLdAuRpKZRu4_h3xXhAcLLPvLvHjNd,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,3,47,arms up in the air,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1044,SFqKMzcomF69i5No6,48,mmirA2setBvr7yMoQ_NiSA2guEbZ353TezC,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,4,48,on the floor,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1045,SFqKMzcomF69i5No6,48,mmirA2setBvr7yMoQ_NiSA2guEbZ353TezC,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,4,48,back on the right on the wall,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1046,EMXGWX7m2JtvDMRDs,49,zgy2xZMW6DZf6ksLD_WWhrkfqjQCxmiEu3v,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,4,49,leg up on the right,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1047,EMXGWX7m2JtvDMRDs,49,zgy2xZMW6DZf6ksLD_WWhrkfqjQCxmiEu3v,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,4,49,arms in front to the left,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1048,zraZosvFBoY4cXnuz,50,wmEiyXd2XzJJfa3pn_uEuXbePhdJLjRFfce,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,4,50,left side straight till the end,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1049,26RM7vnd3TxYTKSJF,51,HYsggBfusTJ3hJFzv_L6MWDXNhDQcsBjH7W,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,4,51,triangle point left,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1050,26RM7vnd3TxYTKSJF,51,HYsggBfusTJ3hJFzv_L6MWDXNhDQcsBjH7W,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,4,51,square,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1051,26RM7vnd3TxYTKSJF,51,HYsggBfusTJ3hJFzv_L6MWDXNhDQcsBjH7W,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,4,51,two triangles,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1052,jwgE2nmzm8rQLq7x6,52,6CmYeN9jsGXLs9k54_GFL7m5sSKPpWxeFCS,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,4,52,on one knee,whYPsCAALJKsn3n2g,/experiment/tangram_B.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1053,jwgE2nmzm8rQLq7x6,52,6CmYeN9jsGXLs9k54_GFL7m5sSKPpWxeFCS,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,4,52,arms up in the air,whYPsCAALJKsn3n2g,/experiment/tangram_B.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1054,xuXxiyvFodivxJT6e,53,uhC47psbLaWfk3ymD_McvHBqfR7XkCL7MPP,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,4,53,praying position,whYPsCAALJKsn3n2g,/experiment/tangram_K.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1055,hhwCnFuQcAKBMj5tk,54,3A7xpjbXYBDr4NqX7_WR3DBSqPPqqpxtnAv,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,4,54,lying on one side,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1056,hhwCnFuQcAKBMj5tk,54,3A7xpjbXYBDr4NqX7_WR3DBSqPPqqpxtnAv,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,4,54,arm right on the floor,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1057,BXx6Mq6Q7ZQzAXsMF,55,bhGaCz7kykwtKtnhB_Wuogj5uBFaCJG7yPW,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,4,55,legs bent,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
+1058,BXx6Mq6Q7ZQzAXsMF,55,bhGaCz7kykwtKtnhB_Wuogj5uBFaCJG7yPW,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,4,55,we can't see them all,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
+1059,BXx6Mq6Q7ZQzAXsMF,55,bhGaCz7kykwtKtnhB_Wuogj5uBFaCJG7yPW,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,4,55,nun position,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,0,whYPsCAALJKsn3n2g,TRUE
+1060,KLFRkDsFqWTCQHjgQ,56,wQPs2f3kBwwHK23gs_QAvyMEuwKgnAK7zsv,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,4,56,left leg up,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1061,KLFRkDsFqWTCQHjgQ,56,wQPs2f3kBwwHK23gs_QAvyMEuwKgnAK7zsv,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,4,56,square hanging on the rigth,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1062,u7QBrA8CMbYJCnSQr,57,z99pFYBBEZ2WR79AB_yHevWFqM98MqbNL8D,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,4,57,i'm tired ahahahah,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1063,u7QBrA8CMbYJCnSQr,57,z99pFYBBEZ2WR79AB_yHevWFqM98MqbNL8D,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,4,57,me too haha,fSMHCA2X7sKM5kb39,/experiment/tangram_D.png,listener,1,whYPsCAALJKsn3n2g,TRUE
+1064,u7QBrA8CMbYJCnSQr,57,z99pFYBBEZ2WR79AB_yHevWFqM98MqbNL8D,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,4,57,right side pretty straight till the end,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1065,u7QBrA8CMbYJCnSQr,57,z99pFYBBEZ2WR79AB_yHevWFqM98MqbNL8D,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,4,57,it's too long,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1066,u7QBrA8CMbYJCnSQr,57,z99pFYBBEZ2WR79AB_yHevWFqM98MqbNL8D,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,4,57,hang on! we are almost there hahaha,XfPenstnRyoSskufp,/experiment/tangram_D.png,listener,1,whYPsCAALJKsn3n2g,TRUE
+1067,u7QBrA8CMbYJCnSQr,57,z99pFYBBEZ2WR79AB_yHevWFqM98MqbNL8D,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,4,57,we're getting better to ahah,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1068,7nZDR5w6v4qL52PoF,58,BjHPWNWnCHzeRz3eu_JXMcx8JQeLQMHnu4G,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,4,58,body on the left,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1069,7nZDR5w6v4qL52PoF,58,BjHPWNWnCHzeRz3eu_JXMcx8JQeLQMHnu4G,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,4,58,arms up in the air,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1070,4oMrxen4i8DHyCi7f,59,xrjvJKBSxzNbmuFfz_rRJiDQGd69D8K3X9h,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,4,59,legs bent,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1071,4oMrxen4i8DHyCi7f,59,xrjvJKBSxzNbmuFfz_rRJiDQGd69D8K3X9h,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,4,59,on the right,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1072,4oMrxen4i8DHyCi7f,59,xrjvJKBSxzNbmuFfz_rRJiDQGd69D8K3X9h,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,4,59,we can see all legs,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1073,4oMrxen4i8DHyCi7f,59,xrjvJKBSxzNbmuFfz_rRJiDQGd69D8K3X9h,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,4,59,arms in front,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1074,4oMrxen4i8DHyCi7f,59,xrjvJKBSxzNbmuFfz_rRJiDQGd69D8K3X9h,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,4,59,on the right,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1075,2YBG9hCsmNcXKwYSb,60,fFvLZ69PXXHBbeh5M_964PfxR3TmREX2qdR,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,5,60,lying on the side,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1076,2YBG9hCsmNcXKwYSb,60,fFvLZ69PXXHBbeh5M_964PfxR3TmREX2qdR,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,0,5,60,right arm on the floor,whYPsCAALJKsn3n2g,/experiment/tangram_G.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1077,qnvibApXQSLrXtrCR,61,r3xbKTYckXptDMBEn_ykXkq7W6NtDytPKC6,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,5,61,on one knee,whYPsCAALJKsn3n2g,/experiment/tangram_B.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1078,qnvibApXQSLrXtrCR,61,r3xbKTYckXptDMBEn_ykXkq7W6NtDytPKC6,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,1,5,61,arms in the air,whYPsCAALJKsn3n2g,/experiment/tangram_B.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1079,BiGtK9P5KFKHzy76o,62,zSj4B6bXFoy3iSAN9_agNbegYcRsMzyDXPP,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,5,62,on the floor,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1080,BiGtK9P5KFKHzy76o,62,zSj4B6bXFoy3iSAN9_agNbegYcRsMzyDXPP,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,5,62,back on the right,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1081,BiGtK9P5KFKHzy76o,62,zSj4B6bXFoy3iSAN9_agNbegYcRsMzyDXPP,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,2,5,62,on the wall,whYPsCAALJKsn3n2g,/experiment/tangram_F.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1082,H2jMfig6SHeX4DmE5,63,7hW9nWhBKe9K9McYg_CAgpCWmGPq6SvcdCM,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,5,63,body on the left,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1083,H2jMfig6SHeX4DmE5,63,7hW9nWhBKe9K9McYg_CAgpCWmGPq6SvcdCM,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,5,63,arms in the air,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1084,H2jMfig6SHeX4DmE5,63,7hW9nWhBKe9K9McYg_CAgpCWmGPq6SvcdCM,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,3,5,63,i'm dying,whYPsCAALJKsn3n2g,/experiment/tangram_C.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1085,DLxRD6zZLxhTSE5M6,64,g5T25LabqSrfArFGQ_fuJ9WLwNCt8fEaSRL,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,5,64,leg up on the left,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1086,DLxRD6zZLxhTSE5M6,64,g5T25LabqSrfArFGQ_fuJ9WLwNCt8fEaSRL,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,5,64,hang on! XD,XfPenstnRyoSskufp,/experiment/tangram_A.png,listener,1,whYPsCAALJKsn3n2g,TRUE
+1087,DLxRD6zZLxhTSE5M6,64,g5T25LabqSrfArFGQ_fuJ9WLwNCt8fEaSRL,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,5,64,square hanging on the right,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1088,DLxRD6zZLxhTSE5M6,64,g5T25LabqSrfArFGQ_fuJ9WLwNCt8fEaSRL,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,5,64,where are you from?,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1089,DLxRD6zZLxhTSE5M6,64,g5T25LabqSrfArFGQ_fuJ9WLwNCt8fEaSRL,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,5,64,greece,XfPenstnRyoSskufp,/experiment/tangram_A.png,listener,1,whYPsCAALJKsn3n2g,TRUE
+1090,DLxRD6zZLxhTSE5M6,64,g5T25LabqSrfArFGQ_fuJ9WLwNCt8fEaSRL,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,5,64,you?,XfPenstnRyoSskufp,/experiment/tangram_A.png,listener,1,whYPsCAALJKsn3n2g,TRUE
+1091,DLxRD6zZLxhTSE5M6,64,g5T25LabqSrfArFGQ_fuJ9WLwNCt8fEaSRL,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,5,64,Poland,fSMHCA2X7sKM5kb39,/experiment/tangram_A.png,listener,1,whYPsCAALJKsn3n2g,TRUE
+1092,DLxRD6zZLxhTSE5M6,64,g5T25LabqSrfArFGQ_fuJ9WLwNCt8fEaSRL,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,4,5,64,italy,whYPsCAALJKsn3n2g,/experiment/tangram_A.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1093,DcXwsnq5ZxcStKdHi,65,B5MTKDEMohMJNchRa_qjzpE8Cj5nkhx46qg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,5,65,Nice!,XfPenstnRyoSskufp,/experiment/tangram_I.png,listener,1,whYPsCAALJKsn3n2g,TRUE
+1094,DcXwsnq5ZxcStKdHi,65,B5MTKDEMohMJNchRa_qjzpE8Cj5nkhx46qg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,5,65,leg up on the right,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1095,DcXwsnq5ZxcStKdHi,65,B5MTKDEMohMJNchRa_qjzpE8Cj5nkhx46qg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,5,65,arms on the front to the left,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1096,DcXwsnq5ZxcStKdHi,65,B5MTKDEMohMJNchRa_qjzpE8Cj5nkhx46qg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,5,65,nice paly with you guys,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1097,DcXwsnq5ZxcStKdHi,65,B5MTKDEMohMJNchRa_qjzpE8Cj5nkhx46qg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,5,65,you as well!,XfPenstnRyoSskufp,/experiment/tangram_I.png,listener,1,whYPsCAALJKsn3n2g,TRUE
+1098,DcXwsnq5ZxcStKdHi,65,B5MTKDEMohMJNchRa_qjzpE8Cj5nkhx46qg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,5,65,good job!,XfPenstnRyoSskufp,/experiment/tangram_I.png,listener,1,whYPsCAALJKsn3n2g,TRUE
+1099,DcXwsnq5ZxcStKdHi,65,B5MTKDEMohMJNchRa_qjzpE8Cj5nkhx46qg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,5,65,thanks,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1100,DcXwsnq5ZxcStKdHi,65,B5MTKDEMohMJNchRa_qjzpE8Cj5nkhx46qg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,5,65,with you too!~good job all,fSMHCA2X7sKM5kb39,/experiment/tangram_I.png,listener,1,whYPsCAALJKsn3n2g,TRUE
+1101,DcXwsnq5ZxcStKdHi,65,B5MTKDEMohMJNchRa_qjzpE8Cj5nkhx46qg,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,5,5,65,you too,whYPsCAALJKsn3n2g,/experiment/tangram_I.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1102,sqpHX8DSF8xNr7ypn,66,2FkWRYgujXwJEpxmM_rgGCgxJQY7DuG7Mna,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,5,66,legs bent,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1103,sqpHX8DSF8xNr7ypn,66,2FkWRYgujXwJEpxmM_rgGCgxJQY7DuG7Mna,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,5,66,nun position,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1104,sqpHX8DSF8xNr7ypn,66,2FkWRYgujXwJEpxmM_rgGCgxJQY7DuG7Mna,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,6,5,66,we can't see all legs,whYPsCAALJKsn3n2g,/experiment/tangram_H.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1105,QawAHckN6DypeJfEK,67,XnhAKD9DTsGopvdNu_mm32guJsz56GrvsC6,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,7,5,67,praying position,whYPsCAALJKsn3n2g,/experiment/tangram_K.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1106,rZsFY4JoKTFFAxMaj,68,3y5ETvKEuvhnsM5vR_XbxkfhsKdv3rmcDY7,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,5,68,left side alla straight,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1107,rZsFY4JoKTFFAxMaj,68,3y5ETvKEuvhnsM5vR_XbxkfhsKdv3rmcDY7,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,8,5,68,till the end,whYPsCAALJKsn3n2g,/experiment/tangram_J.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1108,DSRCZDhq6ovFvRXTb,69,uJYfu4ygfP8LPZXGu_koA5ZB7AqGC6fp4XW,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,5,69,triangle pointing left,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1109,DSRCZDhq6ovFvRXTb,69,uJYfu4ygfP8LPZXGu_koA5ZB7AqGC6fp4XW,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,5,69,square,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1110,DSRCZDhq6ovFvRXTb,69,uJYfu4ygfP8LPZXGu_koA5ZB7AqGC6fp4XW,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,9,5,69,2 triangles,whYPsCAALJKsn3n2g,/experiment/tangram_E.png,speaker,1,whYPsCAALJKsn3n2g,TRUE
+1111,dNQRALhjiovW8vtrN,70,tXNsaRfYszFMkX5Ei_W5kt4wt5w8eFtWN4P,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,5,70,legs bent,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1112,dNQRALhjiovW8vtrN,70,tXNsaRfYszFMkX5Ei_W5kt4wt5w8eFtWN4P,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,5,70,to the right,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1113,dNQRALhjiovW8vtrN,70,tXNsaRfYszFMkX5Ei_W5kt4wt5w8eFtWN4P,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,5,70,we can see them all,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1114,dNQRALhjiovW8vtrN,70,tXNsaRfYszFMkX5Ei_W5kt4wt5w8eFtWN4P,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,5,70,arms in front,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1115,dNQRALhjiovW8vtrN,70,tXNsaRfYszFMkX5Ei_W5kt4wt5w8eFtWN4P,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,10,5,70,to the right,whYPsCAALJKsn3n2g,/experiment/tangram_L.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1116,SZoG5TpeMWZe24c5g,71,QZ7f6cTyhnKGKwpoN_qHhuRkHKZ8LpEMRSF,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,5,71,right side pretty straight till the end,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
+1117,SZoG5TpeMWZe24c5g,71,QZ7f6cTyhnKGKwpoN_qHhuRkHKZ8LpEMRSF,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,5,71,we're almost finished haha,fSMHCA2X7sKM5kb39,/experiment/tangram_D.png,listener,2,whYPsCAALJKsn3n2g,TRUE
+1118,SZoG5TpeMWZe24c5g,71,QZ7f6cTyhnKGKwpoN_qHhuRkHKZ8LpEMRSF,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,5,71,Aaaand we made it people! congrats!,XfPenstnRyoSskufp,/experiment/tangram_D.png,listener,2,whYPsCAALJKsn3n2g,TRUE
+1119,SZoG5TpeMWZe24c5g,71,QZ7f6cTyhnKGKwpoN_qHhuRkHKZ8LpEMRSF,vcHjx28q2E7ZrCN92,2021-03-08T20:34:06Z,11,5,71,finally,whYPsCAALJKsn3n2g,/experiment/tangram_D.png,speaker,2,whYPsCAALJKsn3n2g,TRUE
